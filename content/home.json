@@ -297,14 +297,13 @@
       "height": 324,
       "overlay": 0,
       "style": {
-        "align": "left"
-      }
-    },
-    {
-      "type": "news_list",
-      "style": {
-        "align": "left"
-      }
+        "align": "left",
+        "font_size": 10,
+        "heading_size": 50
+      },
+      "image": "",
+      "kicker": "",
+      "title": ""
     }
   ]
 }
