@@ -5,9 +5,9 @@
 # ─────────────────────────────────────────────────────────────
 backend:
   name: github
-  repo: OWNER/REPO                           # [ ★ 수정 필요 ] 예: parklab-kaist/parklab-site
+  repo: mitsuriny0214/Parklab_FIMCL                           # [ ★ 수정 필요 ] 예: parklab-kaist/parklab-site
   branch: main
-  base_url: https://YOUR-WORKER.workers.dev  # [ ★ 수정 필요 ] Cloudflare 로그인 중계 주소
+  base_url: https://sveltia-cms-auth.mitsuriny0214.workers.dev  # [ ★ 수정 필요 ] Cloudflare 로그인 중계 주소
   commit_messages:
     create: "관리자 화면에서 새 항목 추가: {{collection}} {{slug}}"
     update: "관리자 화면에서 수정: {{collection}} {{slug}}"
@@ -20,7 +20,7 @@ local_backend: true
 
 locale: ko
 publish_mode: simple        # '게시'를 누르면 바로 공개됩니다 (검토 단계 없음)
-site_url: https://OWNER.github.io/REPO/   # [ ★ 수정 필요 ] 공개 사이트 주소 (관리자 화면의 '사이트 보기' 링크)
+site_url: https://mitsuriny0214.github.io/Parklab_FIMCL/   # [ ★ 수정 필요 ] 공개 사이트 주소 (관리자 화면의 '사이트 보기' 링크)
 media_folder: images/uploads
 public_folder: images/uploads
 
