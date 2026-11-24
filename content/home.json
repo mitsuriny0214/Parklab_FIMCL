@@ -291,19 +291,6 @@
       "style": {
         "bg_color": "#f7f7f7"
       }
-    },
-    {
-      "type": "hero",
-      "height": 324,
-      "overlay": 0,
-      "style": {
-        "align": "left",
-        "font_size": 10,
-        "heading_size": 50
-      },
-      "image": "",
-      "kicker": "",
-      "title": ""
     }
   ]
 }
