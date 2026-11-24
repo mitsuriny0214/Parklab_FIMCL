@@ -93,3 +93,13 @@ img{max-width:100%;height:auto}
  .site-footer .footer-copyright{grid-row:4}
 }
 .empty-note{padding:40px 20px;text-align:center;color:#888}
+/* GROUP NEWS 제목과 첫 뉴스 사이 간격 */
+.blk-news .main > h2 {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+  .blk-news .main > h2 {
+    margin-bottom: 50px;
+  }
+}
