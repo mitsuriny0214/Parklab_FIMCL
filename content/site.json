@@ -44,7 +44,7 @@
     "logo2_width": 170,
     "logo_column_width": 400,
     "text_color": "#9a9a9a",
-    "font_size": 33,
+    "font_size": 16,
     "row_gap": 70,
     "logo_align": "flex-start",
     "logo_width": 180,
