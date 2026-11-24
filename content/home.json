@@ -281,7 +281,7 @@
         "align": "center",
         "font_size": 17,
         "heading_size": 30,
-        "pad_top": 40,
+        "pad_top": 60,
         "pad_bottom": 40
       }
     }
