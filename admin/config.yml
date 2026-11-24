@@ -5,6 +5,7 @@
 # ─────────────────────────────────────────────────────────────
 backend:
   name: github
+  auth_scope: public_repo
   repo: mitsuriny0214/Parklab_FIMCL                           # [ ★ 수정 필요 ] 예: parklab-kaist/parklab-site
   branch: main
   base_url: https://sveltia-cms-auth.mitsuriny0214.workers.dev  # [ ★ 수정 필요 ] Cloudflare 로그인 중계 주소
