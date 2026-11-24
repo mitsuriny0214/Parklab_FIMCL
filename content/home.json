@@ -5,13 +5,13 @@
       "image": "images/uploads/hero-mof.webp",
       "kicker": "Korea Advanced Institute of Science and Technology",
       "title": "INORGANIC MATERIALS CHEMISTRY",
-      "height": 324,
+      "height": 224,
       "overlay": 0,
       "style": {
         "text_color": "#ffffff",
         "align": "center",
-        "font_size": 30,
-        "heading_size": 55,
+        "font_size": 25,
+        "heading_size": 62,
         "pad_top": 0,
         "pad_bottom": 0
       }
@@ -270,7 +270,7 @@
         },
         {
           "date": "2026-11-24",
-          "text": "test"
+          "text": "test\n\n[논문](https://doi.org/10.1021/jacs.4c02326) 링크 연결"
         }
       ],
       "side_text": "**The Park Group**\n\n291 Daehak-ro\n\nDaejeon 34141, Korea\n\nOffice: Chem Bldg #4104\n\nLab: Chem Bldg #3131,3132",
