@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────
 # Park Group 관리자 설정 (Decap CMS)
-# ※ 아래 [ ★ 수정 필요 ] 두 줄(repo, base_url)만 본인 값으로 바꾸세요.
+# 현재 연구실의 GitHub와 로그인 연결 설정이 반영되어 있습니다.
 #   자세한 순서는 SETUP-KO.md 를 보세요.
 # ─────────────────────────────────────────────────────────────
 backend:
@@ -46,7 +46,7 @@ collections:
                 widget: object
                 summary: "배너 · {{fields.title}}"
                 fields:
-                  - { label: 배경 사진, name: image, widget: image, required: false, hint: "가로로 긴 사진이 잘 어울려요. 용량은 5MB 이하를 권장해요." }
+                  - { label: 배경 사진, name: image, widget: image, required: false, hint: "영역을 채우는 배경 사진입니다. 로고 전체 표시에는 사진 한 장 또는 사이트 공통 → 푸터 로고를 사용하세요." }
                   - { label: 작은 글줄 (위), name: kicker, widget: string, required: false }
                   - { label: 큰 제목, name: title, widget: string, required: false }
                   - { label: 배너 높이 (px), name: height, widget: number, value_type: int, min: 80, max: 900, default: 324 }
@@ -191,7 +191,38 @@ collections:
             name: footer
             widget: object
             fields:
-              - { label: 푸터 로고 사진, name: logo, widget: image, required: false }
-              - { label: 푸터 글, name: text, widget: markdown, buttons: [bold, italic, link], editor_components: [] }
+              - { label: 위쪽 FIMCL 로고, name: logo, widget: image, required: false, hint: "미디어에서 FIMCL 로고를 선택하세요. 원본 비율을 유지해 전체를 표시합니다." }
+              - { label: FIMCL 로고 너비 (px), name: logo_width, widget: number, value_type: int, min: 40, max: 420, default: 180 }
+              - label: 주소 · 연락처
+                name: text
+                widget: markdown
+                required: false
+                buttons: [bold, italic, link]
+                editor_components: []
+                hint: "위쪽 오른쪽 영역입니다. 기존 내용의 Copyright 이하 문장은 자동으로 아래 행에 표시합니다. 새로 입력할 때는 저작권 문구를 아래 별도 칸에 넣으세요."
+              - { label: 아래쪽 KAIST 로고, name: logo2, widget: image, required: false, default: "images/uploads/logo-kaist-white.webp", hint: "기본 KAIST 이미지가 들어 있습니다. KAIST와 학과명이 합쳐진 이미지를 올리면 학과명 칸은 비우세요." }
+              - { label: KAIST 로고 너비 (px), name: logo2_width, widget: number, value_type: int, min: 40, max: 420, default: 170 }
+              - { label: KAIST 로고 옆 학과명, name: department_text, widget: text, required: false, default: "Department of\nChemistry" }
+              - { label: 아래 로고 밑 문구, name: logo2_caption, widget: string, required: false, default: "Make it stand out", hint: "원본 화면의 문구입니다. 비우면 표시하지 않습니다." }
+              - { label: 로고 밑 문구 색, name: caption_color, widget: color, allowInput: true, required: false, default: "#000000" }
+              - label: 저작권 문구
+                name: copyright_text
+                widget: markdown
+                required: false
+                default: "Copyright © 2026 The Park Group - Functional Inorganic Materials Chemistry Laboratory (FIMCL)\n\nAll rights reserved."
+                buttons: [bold, italic, link]
+                editor_components: []
+              - label: 로고 정렬 (왼쪽 칸 안에서)
+                name: logo_align
+                widget: select
+                default: flex-start
+                options: [{ label: 왼쪽, value: flex-start }, { label: 가운데, value: center }, { label: 오른쪽, value: flex-end }]
+              - { label: 전체 내용 너비 (px), name: content_width, widget: number, value_type: int, min: 640, max: 1800, default: 1400 }
+              - { label: 왼쪽 로고 칸 너비 (px), name: logo_column_width, widget: number, value_type: int, min: 120, max: 420, default: 300 }
+              - { label: 좌우 칸 간격 (px), name: column_gap, widget: number, value_type: int, min: 12, max: 160, default: 56 }
+              - { label: 위아래 행 간격 (px), name: row_gap, widget: number, value_type: int, min: 0, max: 200, default: 70 }
+              - { label: 연락처 · 저작권 글자 크기 (px), name: font_size, widget: number, value_type: int, min: 12, max: 36, default: 22 }
+              - { label: 위 여백 (px), name: pad_top, widget: number, value_type: int, min: 0, max: 240, default: 64 }
+              - { label: 아래 여백 (px), name: pad_bottom, widget: number, value_type: int, min: 0, max: 240, default: 86 }
               - { label: 배경색, name: bg_color, widget: color, allowInput: true, required: false }
               - { label: 글자색, name: text_color, widget: color, allowInput: true, required: false }

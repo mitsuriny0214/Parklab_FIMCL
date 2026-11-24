@@ -66,12 +66,30 @@ img{max-width:100%;height:auto}
 .blk-btn .b{display:inline-block;background:var(--btn,#36b5aa);color:var(--fg,#fff);text-decoration:none;font-weight:600;letter-spacing:1px;padding:.8em 2em;border-radius:300px}
 .blk-spacer{padding:0;height:var(--sh,60px)}
 
-/* footer */
-.site-footer{background:var(--fbg,#212121);color:var(--ffg,#9a9a9a);padding:44px 0 50px}
-.site-footer .fin{max-width:1020px;margin:0 auto;padding:0 20px;display:flex;gap:56px;align-items:flex-start}
-.site-footer .flogo{flex:0 0 190px}
-.site-footer .flogo img{width:190px;display:block}
-.site-footer .ftxt p{margin:0 0 .9em;font-size:17px}
+/* footer: the two rows in the original Park Group site */
+.site-footer{background:var(--fbg,#212121);color:var(--ffg,#858585);padding:var(--footer-top,64px) 0 var(--footer-bottom,86px)}
+.site-footer .fin{max-width:var(--footer-width,1400px);margin:0 auto;padding:0 20px;display:grid;grid-template-columns:minmax(0,var(--footer-col,300px)) minmax(0,1fr);column-gap:var(--footer-gap,56px);row-gap:var(--footer-row-gap,70px);align-items:start}
+.site-footer .footer-primary,.site-footer .footer-secondary{min-width:0;display:flex;flex-direction:column;align-items:var(--footer-logo-align,flex-start)}
+.site-footer .footer-primary-img{width:var(--footer-logo-width,180px);max-width:100%;height:auto;display:block;object-fit:contain}
+.site-footer .footer-contact,.site-footer .footer-copyright{min-width:0;font-size:var(--footer-size,22px);line-height:1.6;overflow-wrap:anywhere;text-align:left}
+.site-footer .footer-contact p,.site-footer .footer-copyright p{margin:0 0 .65em}
+.site-footer .footer-contact p:last-child,.site-footer .footer-copyright p:last-child{margin-bottom:0}
+.site-footer .footer-institution{display:flex;align-items:center;gap:18px;max-width:100%}
+.site-footer .footer-secondary-img{width:var(--footer-logo2-width,170px);max-width:60%;height:auto;object-fit:contain;display:block;opacity:.55;flex-shrink:1;min-width:0}
+.site-footer .footer-secondary-img:only-child{max-width:100%}
+.site-footer .footer-department{font-size:18px;line-height:1.3;white-space:normal}
+.site-footer .footer-caption{font-size:20px;line-height:1.4;margin:18px 0 0;color:var(--footer-caption-color,#000000)}
 .site-footer a{color:inherit}
-@media(max-width:700px){.site-footer .fin{flex-direction:column;gap:20px}}
+@media(max-width:900px){
+ .site-footer .fin{grid-template-columns:minmax(0,220px) minmax(0,1fr);column-gap:28px}
+ .site-footer .footer-contact,.site-footer .footer-copyright{font-size:min(var(--footer-size,22px),18px)}
+ .site-footer .footer-department{font-size:15px}
+}
+@media(max-width:700px){
+ .site-footer .fin{grid-template-columns:minmax(0,1fr);row-gap:24px}
+ .site-footer .footer-primary{grid-row:1}
+ .site-footer .footer-contact{grid-row:2}
+ .site-footer .footer-secondary{grid-row:3;margin-top:12px}
+ .site-footer .footer-copyright{grid-row:4}
+}
 .empty-note{padding:40px 20px;text-align:center;color:#888}

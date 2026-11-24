@@ -89,10 +89,42 @@
   }
   function renderFooter(f) {
     f = f || {};
-    const st = (col(f.bg_color) ? '--fbg:' + col(f.bg_color) + ';' : '') + (col(f.text_color) ? '--ffg:' + col(f.text_color) : '');
-    return '<footer class="site-footer" style="' + esc(st) + '"><div class="fin">' +
-      '<div class="flogo">' + (f.logo ? '<img src="' + esc(f.logo) + '" alt="">' : '') + '</div>' +
-      '<div class="ftxt md">' + md(f.text) + '</div></div></footer>';
+    // Keep existing CMS content, including the original combined contact/copyright field.
+    const legacy = String(f.text || '');
+    const copyrightAt = legacy.search(/Copyright\s*(?:©|\(c\))/i);
+    const contact = copyrightAt >= 0 ? legacy.slice(0, copyrightAt).trim() : legacy;
+    const fallbackCopyright = copyrightAt >= 0 ? legacy.slice(copyrightAt).trim() :
+      'Copyright © 2026 The Park Group - Functional Inorganic Materials Chemistry Laboratory (FIMCL)\n\nAll rights reserved.';
+    const copyright = f.copyright_text == null ? fallbackCopyright : String(f.copyright_text);
+    const limit = (value, fallback, lo, hi) => Math.max(lo, Math.min(num(value, fallback), hi));
+    const css = [
+      '--fbg:' + (col(f.bg_color) || '#212121'),
+      '--ffg:' + (col(f.text_color) || '#858585'),
+      '--footer-width:' + limit(f.content_width, 1400, 640, 1800) + 'px',
+      '--footer-col:' + limit(f.logo_column_width, 300, 120, 420) + 'px',
+      '--footer-gap:' + limit(f.column_gap, 56, 12, 160) + 'px',
+      '--footer-row-gap:' + limit(f.row_gap, 70, 0, 200) + 'px',
+      '--footer-size:' + limit(f.font_size, 22, 12, 36) + 'px',
+      '--footer-top:' + limit(f.pad_top, 64, 0, 240) + 'px',
+      '--footer-bottom:' + limit(f.pad_bottom, 86, 0, 240) + 'px',
+      '--footer-logo-width:' + limit(f.logo_width, 180, 40, 420) + 'px',
+      '--footer-logo2-width:' + limit(f.logo2_width, 170, 40, 420) + 'px',
+      '--footer-logo-align:' + pick(f.logo_align, ['flex-start', 'center', 'flex-end'], 'flex-start'),
+      '--footer-caption-color:' + (col(f.caption_color) || '#000000')
+    ].join(';');
+    const logo = f.logo ? '<img class="footer-primary-img" src="' + esc(safeUrl(f.logo)) + '" alt="FIMCL">' : '';
+    const logo2Path = f.logo2 == null ? 'images/uploads/logo-kaist-white.webp' : f.logo2;
+    const logo2 = logo2Path ? '<img class="footer-secondary-img" src="' + esc(safeUrl(logo2Path)) + '" alt="KAIST">' : '';
+    const department = f.department_text == null ? 'Department of\nChemistry' : String(f.department_text);
+    const departmentHtml = department ? '<span class="footer-department">' + esc(department).replace(/\r?\n/g, '<br>') + '</span>' : '';
+    const caption = f.logo2_caption == null ? 'Make it stand out' : String(f.logo2_caption);
+    return '<footer class="site-footer" style="' + esc(css) + '"><div class="fin">' +
+      '<div class="footer-primary">' + logo + '</div>' +
+      '<div class="footer-contact md">' + md(contact) + '</div>' +
+      '<div class="footer-secondary"><div class="footer-institution">' + logo2 + departmentHtml + '</div>' +
+        (caption ? '<p class="footer-caption">' + esc(caption) + '</p>' : '') + '</div>' +
+      '<div class="footer-copyright md">' + md(copyright) + '</div>' +
+      '</div></footer>';
   }
   function wireMenu(scope) {
     const hd = scope.querySelector('.site-header'), bt = scope.querySelector('.burger');

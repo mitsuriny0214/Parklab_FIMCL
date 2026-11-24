@@ -20,7 +20,10 @@
   const Site = props => {
     const d = toJS(props.entry), img = imgResolver(props.getAsset);
     const header = Object.assign({}, d.header, { logo: d.header && d.header.logo ? img(d.header.logo) : '' });
-    const footer = Object.assign({}, d.footer, { logo: d.footer && d.footer.logo ? img(d.footer.logo) : '' });
+    const footer = Object.assign({}, d.footer, {
+      logo: d.footer && d.footer.logo ? img(d.footer.logo) : '',
+      logo2: img(d.footer && d.footer.logo2 != null ? d.footer.logo2 : 'images/uploads/logo-kaist-white.webp')
+    });
     return h('div', { dangerouslySetInnerHTML: { __html: PL.renderHeader(header, 'index.html') + '<div class="empty-note">(본문 영역)</div>' + PL.renderFooter(footer) } });
   };
   CMS.registerPreviewTemplate('home', Page);
