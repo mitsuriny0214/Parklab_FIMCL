@@ -1,0 +1,42 @@
+{
+  "header": {
+    "logo": "images/uploads/logo-kaist-white.webp",
+    "bg_color": "#1c1c1c",
+    "button_label": "Contact",
+    "button_url": "https://parklab.kaist.ac.kr/contact-1",
+    "button_color": "#36b5aa",
+    "menu": [
+      {
+        "label": "Home",
+        "url": "index.html"
+      },
+      {
+        "label": "Research",
+        "url": "https://parklab.kaist.ac.kr/research"
+      },
+      {
+        "label": "Group",
+        "url": "https://parklab.kaist.ac.kr/group"
+      },
+      {
+        "label": "Photos",
+        "url": "https://parklab.kaist.ac.kr/photos"
+      },
+      {
+        "label": "Publications",
+        "url": "https://parklab.kaist.ac.kr/publications"
+      },
+      {
+        "label": "Teaching",
+        "url": "https://parklab.kaist.ac.kr/teaching-1"
+      }
+    ]
+  },
+  "footer": {
+    "logo": "",
+    "bg_color": "#212121",
+    "text_color": "#9a9a9a",
+    "text": "Chemistry Building #3131, 3132, Department of Chemistry, KAIST\n\n291 Daehak-ro, Daejeon 34141, Republic of Korea\n\nTEL: +82-42-350-2832 / E-mail: [sarah.park@kaist.ac.kr](mailto:sarah.park@kaist.ac.kr)\n\nCopyright © 2026 The Park Group - Functional Inorganic Materials Chemistry Laboratory (FIMCL)\n\nAll rights reserved."
+  },
+  "site_title": "Park Research Group — KAIST"
+}
