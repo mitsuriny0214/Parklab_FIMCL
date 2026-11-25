@@ -1,729 +1,744 @@
 {
- "blocks": [
-  {
-   "type": "page_title",
-   "title": "PUBLICATIONS",
-   "rule": true,
-   "rule_gap": 43,
-   "style": {
-    "pad_top": 48,
-    "pad_bottom": 42,
-    "align": "center"
-   }
-  },
-  {
-   "type": "publications",
-   "groups": [
+  "blocks": [
     {
-     "year": "2026",
-     "items": [
-      {
-       "number": "57",
-       "title": "Hierarchical Engineering of Atomically Precise Gold Nanoclusters from Alloying to Cluster-Assembled Frameworks",
-       "url": "https://doi.org/10.1021/jacs.6c13448",
-       "authors": "Park, K. C.; Park, S.-H.; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2026**, DOI: 10.1021/jacs.6c13448",
-       "note": "",
-       "images": [
+      "type": "page_title",
+      "title": "PUBLICATIONS",
+      "rule": true,
+      "rule_gap": 43,
+      "style": {
+        "pad_top": 48,
+        "pad_bottom": 42,
+        "align": "center"
+      }
+    },
+    {
+      "type": "publications",
+      "groups": [
         {
-         "image": "images/uploads/pub-57-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "56",
-       "title": "Lithography-Compatible Conductive Metal–Organic Frameworks for Scalable Electronics",
-       "url": "http://doi.org/10.1002/adma.75003",
-       "authors": "Lee, H.; Lee, H. J.; Choe, M.; Park, J.; Yi, Y.; Im, S.; Park, S. H.; Choi, H. C.\\*; Park, J. H.\\*; Park, S. S.\\*",
-       "journal": "*Adv. Mater.* **2026**, e75003.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-56-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "55",
-       "title": "Sequential Zn2+-H+ storage in a 2D conductive metal-organic framework for advanced aqueous zinc-ion battery",
-       "url": "https://doi.org/10.1016/j.chempr.2026.103129",
-       "authors": "Park, G.; Lee, G.; Kim, K.; Park, S. S.\\*",
-       "journal": "*Chem.* **2026**, *12*, 103129.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-55-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "54",
-       "title": "Geometry-Dependent Linker Spin States and Real-Space Band Topology in Two-Dimensional Conductive Metal–Organic Frameworks",
-       "url": "https://pubs.acs.org/doi/10.1021/acsmaterialslett.6c00213",
-       "authors": "Park, G.; Hendon, C. H.\\*; Park, S. S.\\*",
-       "journal": "*ACS Materials Lett.* **2026**, *8*, 2171.",
-       "note": "Special issue: “Emerging Frontiers in Porous Frameworks and Beyond”",
-       "images": [
-        {
-         "image": "images/uploads/pub-54-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "53",
-       "title": "Homoconjugation-Enabled Kagome Bands in a Layer-Decoupled Two-Dimensional Conductive Triptycene-Based Metal–Organic Framework",
-       "url": "https://pubs.acs.org/doi/10.1021/jacs.6c00558",
-       "authors": "Park, G.; Moon, S.; Yi, J.; Hendon, C. H.; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2026**, *15*, 16090.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-53-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "52",
-       "title": "Intrinsic Reversibility in Ir-Based Electrocatalysts via Dynamic Segregated-Surface Reconstruction",
-       "url": "https://pubs.rsc.org/en/content/articlelanding/2026/ee/d5ee05899f/unauth",
-       "authors": "You, S.-H.; Jung, H.; Kim, K.-S.; Baek, J.; Choe, G.; Yi, J.; Jung, S.-M.; Kim, K.-J.; Park, S. S.; Han, J. W.\\*; Lee, K.-S.\\*; Kim, Y.-T.\\*",
-       "journal": "*Energy Environ. Sci.* **2026**, *19*, 1927.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-52-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "51",
-       "title": "Chiral Reticular Frameworks as Emerging Spin Filters",
-       "url": "https://www.cell.com/trends/chemistry/fulltext/S2589-5974(25)00280-1",
-       "authors": "Park, S.; Park, S. S.\\*",
-       "journal": "*Trends Chem.* **2026**, *8*, 119.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-51-1.webp",
-         "width": 230
+          "year": "2026",
+          "items": [
+            {
+              "number": "58",
+              "title": "(논문 제목) test paper",
+              "url": "https://doi.org/10.1021/jacs.4c02326",
+              "authors": "(저자) Park, S. S.*",
+              "journal": "*J. Am. Chem. Soc.* **2026**, DOI: 10.1021/jacs.4c02326",
+              "images": [
+                {
+                  "width": 230,
+                  "image": "images/uploads/group-slide-03.webp",
+                  "alt": ""
+                }
+              ],
+              "note": "추가 설명 가능"
+            },
+            {
+              "number": "57",
+              "title": "Hierarchical Engineering of Atomically Precise Gold Nanoclusters from Alloying to Cluster-Assembled Frameworks",
+              "url": "https://doi.org/10.1021/jacs.6c13448",
+              "authors": "Park, K. C.; Park, S.-H.; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2026**, DOI: 10.1021/jacs.6c13448",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-57-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "56",
+              "title": "Lithography-Compatible Conductive Metal–Organic Frameworks for Scalable Electronics",
+              "url": "http://doi.org/10.1002/adma.75003",
+              "authors": "Lee, H.; Lee, H. J.; Choe, M.; Park, J.; Yi, Y.; Im, S.; Park, S. H.; Choi, H. C.\\*; Park, J. H.\\*; Park, S. S.\\*",
+              "journal": "*Adv. Mater.* **2026**, e75003.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-56-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "55",
+              "title": "Sequential Zn2+-H+ storage in a 2D conductive metal-organic framework for advanced aqueous zinc-ion battery",
+              "url": "https://doi.org/10.1016/j.chempr.2026.103129",
+              "authors": "Park, G.; Lee, G.; Kim, K.; Park, S. S.\\*",
+              "journal": "*Chem.* **2026**, *12*, 103129.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-55-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "54",
+              "title": "Geometry-Dependent Linker Spin States and Real-Space Band Topology in Two-Dimensional Conductive Metal–Organic Frameworks",
+              "url": "https://pubs.acs.org/doi/10.1021/acsmaterialslett.6c00213",
+              "authors": "Park, G.; Hendon, C. H.\\*; Park, S. S.\\*",
+              "journal": "*ACS Materials Lett.* **2026**, *8*, 2171.",
+              "note": "Special issue: “Emerging Frontiers in Porous Frameworks and Beyond”",
+              "images": [
+                {
+                  "image": "images/uploads/pub-54-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "53",
+              "title": "Homoconjugation-Enabled Kagome Bands in a Layer-Decoupled Two-Dimensional Conductive Triptycene-Based Metal–Organic Framework",
+              "url": "https://pubs.acs.org/doi/10.1021/jacs.6c00558",
+              "authors": "Park, G.; Moon, S.; Yi, J.; Hendon, C. H.; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2026**, *15*, 16090.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-53-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "52",
+              "title": "Intrinsic Reversibility in Ir-Based Electrocatalysts via Dynamic Segregated-Surface Reconstruction",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2026/ee/d5ee05899f/unauth",
+              "authors": "You, S.-H.; Jung, H.; Kim, K.-S.; Baek, J.; Choe, G.; Yi, J.; Jung, S.-M.; Kim, K.-J.; Park, S. S.; Han, J. W.\\*; Lee, K.-S.\\*; Kim, Y.-T.\\*",
+              "journal": "*Energy Environ. Sci.* **2026**, *19*, 1927.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-52-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "51",
+              "title": "Chiral Reticular Frameworks as Emerging Spin Filters",
+              "url": "https://www.cell.com/trends/chemistry/fulltext/S2589-5974(25)00280-1",
+              "authors": "Park, S.; Park, S. S.\\*",
+              "journal": "*Trends Chem.* **2026**, *8*, 119.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-51-1.webp",
+                  "width": 230
+                },
+                {
+                  "image": "images/uploads/pub-51-2.webp",
+                  "width": 142
+                }
+              ]
+            },
+            {
+              "number": "50",
+              "title": "Tunable Collinear-to-Canted Antiferromagnetic Transition in Co(II)-Based MOFsthrough Structural Control of Linker Length",
+              "url": "https://doi.org/10.1039/D5QI01974E",
+              "authors": "Kim, S.; Lee, G.; Park, S. S.\\*; Son, K.\\*; Oh, H.\\*",
+              "journal": "*Inorg. Chem. Front.* **2026**, *13*, 1638.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-50-1.webp",
+                  "width": 230
+                }
+              ]
+            }
+          ]
         },
         {
-         "image": "images/uploads/pub-51-2.webp",
-         "width": 142
-        }
-       ]
-      },
-      {
-       "number": "50",
-       "title": "Tunable Collinear-to-Canted Antiferromagnetic Transition in Co(II)-Based MOFsthrough Structural Control of Linker Length",
-       "url": "https://doi.org/10.1039/D5QI01974E",
-       "authors": "Kim, S.; Lee, G.; Park, S. S.\\*; Son, K.\\*; Oh, H.\\*",
-       "journal": "*Inorg. Chem. Front.* **2026**, *13*, 1638.",
-       "note": "",
-       "images": [
+          "year": "2025",
+          "items": [
+            {
+              "number": "49",
+              "title": "Tuning the Electrical Properties through Metal-Ion-Mediated Assembly in Au25 Nanocluster-Based Frameworks",
+              "url": "https://pubs.acs.org/doi/10.1021/jacs.5c06695",
+              "authors": "Kim, S.; Jääskö, H.; Park, K. C.; Malola, S.; Häkkinen, H.\\*; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2025**, *147*, 30803.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-49-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "48",
+              "title": "Isoreticular Moiré Metal-Organic Frameworks with Quasiperiodicity",
+              "url": "https://www.nature.com/articles/s41467-025-62247-2",
+              "authors": "Kim, J.; Lee, J.; Cho, C.; Nam, J.; Ji, B.; Cho, H.; Shin, H. T.; Sivanesan, D.; Park, S. S.; Kim, J.; Choe, W.\\*",
+              "journal": "*Nat. Commun.* **2025**, *16*, 7384.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-48-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "47",
+              "title": "Metal Organic Framework/Au Core/Shell Nanocubes for Spatially Aligned MolecularAnalysis and Molecular Fingerprint Sensing with Surface Enhanced Raman Scattering",
+              "url": "https://doi.org/10.1021/jacs.5c05420",
+              "authors": "Shin, H.-J.; Choi, K.; Son, J.; Kim, M.; Park, S. S.\\*; Nam, J.-M.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2025**, *147*, 29792.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-47-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "46",
+              "title": "Direct Imaging of Co-CUK-1 Framework with H2O Guests",
+              "url": "https://doi.org/10.1002/smll.202411292",
+              "authors": "Yang, D.-H.; Kim, M.; Ko, J.; Kim, G.-Y.; Park, H. G.; Park, S. S.; Cho, K. H.; Lee, J. S.; Chang, J.-S.; Lee, U.-H.; Ishikawa, R.; Shibata, N.; Jung, Y.; Kim, J.\\*; Mizoguchi, T.\\*; Choi, S.-Y.\\*",
+              "journal": "*Small* **2025**, *24*, 2411292.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-46-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "45",
+              "title": "Synthesis of Au13Cu4 Nanoclusters with Isomeric Mercaptobenzoic Acid Ligands",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c01792",
+              "authors": "Kim, M.; Park, S.; Kim, M.; Kim, S.; Seo, J.\\*; Park, S. S.\\*",
+              "journal": "*Nano Lett.* **2025**, 25, 9110.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-45-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "44",
+              "title": "Uninterrupted π-d Conjugated Three-Dimensional Conductive Metal–Organic Framework",
+              "url": "https://pubs.acs.org/doi/10.1021/acsmaterialslett.5c00244",
+              "authors": "Jeong, H.; Park, G.; Yi, J.; Kim, J.; Kim, S.; Oh, H.; Jin, H.; Park, S. S.\\*",
+              "journal": "*ACS Materials Lett.* **2025**, *7*, 2056.",
+              "note": "Special issue: “Emerging Investigators in Materials Science”",
+              "images": [
+                {
+                  "image": "images/uploads/pub-44-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "43",
+              "title": "Zwitterionic Polymer Intertwined Metal-Organic Framework-Based Quasi-Solid-StateElectrolyte for Long Cycle Life Dual-Ion Batteries",
+              "url": "https://doi.org/10.1016/j.chempr.2024.102402",
+              "authors": "Lee, Y.; Woo, H.; Kang, J.; Hwang, S.; Park, S.\\*; Park S. S.\\*",
+              "journal": "*Chem.* **2025**, *11*, 102402.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-43-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "42",
+              "title": "Synergistic Effects of Co–N4 and Ni–N4 Sites in 2D Conductive Metal–Organic Framework Electrocatalysts for Enhanced Oxygen Reduction Reaction Performance",
+              "url": "https://pubs.acs.org/doi/10.1021/acscatal.4c05773",
+              "authors": "Jung, S.-M.; Kim, S.; An, J.; Kim, K.-S.; Kim, M.; Kwon, J.; Kim, H.**\\***;Kim, Y.-T.\\*; Park, S. S.\\*",
+              "journal": "*ACS Catal.* **2025**, *15*, 5568.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-42-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "41",
+              "title": "Colloidal Crystal Engineering with DNA: A Laboratory Experience for Undergraduate Students",
+              "url": "https://doi.org/10.1021/acs.jchemed.4c00948",
+              "authors": "Landy, K. M.; Gibson, K. J.; Hunter K.; Oh, T.; Park, S. S.; Farha, O. K.; Mirkin, C. A.\\*",
+              "journal": "*J. Chem. Educ.* **2025**, *102*, 776.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-41-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "40",
+              "title": "Shape-Dependent Locomotion of DNA-Linked Magnetic Nanoparticle Films",
+              "url": "https://doi.org/10.1021/acs.nanolett.4c05189",
+              "authors": "Ko, J.; Kim, J.; Ki, K.; Moon, S.; Jeon, H.; Park, J. H.; Golla, M.; Chun, C. J.; Kim, J. S.; Lee, A.; Kim, H.; Park, S. S.; Shin, T. S.\\*;Park, S.-J.\\*",
+              "journal": "*Nano Lett.* **2025**, *25*, 419.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-40-1.webp",
+                  "width": 230
+                }
+              ]
+            }
+          ]
+        },
         {
-         "image": "images/uploads/pub-50-1.webp",
-         "width": 230
+          "year": "2024",
+          "items": [
+            {
+              "number": "39",
+              "title": "Elucidation of the Transformation of Coordination Polymer Intermediates into 2D Metal–Organic Framework Films during Chemical Vapor Deposition",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.inorgchem.4c04211",
+              "authors": "Choe, M.; Park, S. S.\\*; Choi, H. C.\\*",
+              "journal": "*Inorg. Chem.* **2024**, *63*, 22662.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-39-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "38",
+              "title": "Molecular-Level Pore Tuning in 2D Conductive Metal–Organic Frameworks for](https://pubs.acs.org/doi/10.1021/jacs.4c11372)[Advanced Supercapacitor Performance",
+              "url": "https://pubs.acs.org/doi/10.1021/jacs.4c11372",
+              "authors": "Lee, G.; Park, G.; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2024**, *146*, 29767.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-38-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "37",
+              "title": "Au25 Cluster-Based Atomically Precise Coordination Frameworks and Emission Engineering through Lattice Symmetry",
+              "url": "https://doi.org/10.1021/acsnano.4c10096",
+              "authors": "Kim, S.; Kim, H.; Lee, C.; Park, I.; Kim, Y.; Moon, D.; Shim, J. H.\\*; Ryu, S.\\*; Park, S. S.\\*",
+              "journal": "*ACS Nano* **2024**, *18*, 29036.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-37-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "36",
+              "title": "Post-Modification Approach for Self-Exfoliated Synthesis of Pyridinium Sulfobetaine Covalent Organic Frameworks for Enhanced Lithium-Ion Conductivity",
+              "url": "https://doi.org/10.1021/acsami.4c06949",
+              "authors": "Liu, C.-X.; Hwang, S.; Lee, Y.; Ko, Y. H.; Park, S. S.\\*; Lee, E.**\\***",
+              "journal": "*ACS Appl. Mater. Interfaces* **2024**, *16*, 48203.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-36-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "35",
+              "title": "Fabricating Large-Area Thin Films of 2D Conductive Metal–Organic Frameworks",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.accounts.4c00292",
+              "authors": "Jeong, H.; Park, G.; Jeon, J.; Park, S. S.\\*",
+              "journal": "*Acc. Chem. Res.* **2024**, *57*, 2336.",
+              "note": "Virtual special issue: “Physical Phenomena in Porous Frameworks”",
+              "images": [
+                {
+                  "image": "images/uploads/pub-35-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "34",
+              "title": "Chemically synthesized poly(3,4-ethylenedioxythiophene) conducting polymer as a robust electrocatalyst for highly efficient dye-sensitized solar cells",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr00949e",
+              "authors": "Masud; Aftabuzzaman, M.; Zhou, H.; Kim, S.; Yi, J.; Park, S. S.; Kim, Y. S.\\*; Kim, H. K.\\*",
+              "journal": "*Nanoscale* **2024**, *16*, 13874.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-34-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "33",
+              "title": "Tailoring electrochemical water oxidation activity from the isostructural series of alkaline-stable bimetallic Fe,Ni-azolate metal-organic frameworks",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1002/aenm.202401198",
+              "authors": "Kim, M.; Jeong, J.; Kim, D. H.; Park, G.; Yi, J.; Kim, S.; Kim, H.; Choi, C. H.; Shin, H.\\*; Park, S. S.\\*",
+              "journal": "*Adv. Energy Mater.* **2024**, 2401198.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-33-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "32",
+              "title": "Solvent-induced structural rearrangement in ultrasound-assisted synthesis of metal-organic frameworks",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400363",
+              "authors": "Yi, J.; Lee, G.; Park, S. S.\\*",
+              "journal": "*Small Methods* **2024**, 2400363.",
+              "note": "Highlighted in the “[Women in Materials Science Virtual Issue](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN%291521-4095.WomeninMaterialsScience)” hosted in *Advanced Materials*",
+              "images": [
+                {
+                  "image": "images/uploads/pub-32-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "31",
+              "title": "Acid-dependent charge transport in a solution-processed 2D conductive metal-organic framework",
+              "url": "https://pubs.acs.org/doi/10.1021/jacs.4c02326",
+              "authors": "Park, G.; Demuth, M.; Hendon, C. H.\\*; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2024**, *146*, 11493.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-31-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "30",
+              "title": "From structure to function: Harnessing the ionic conductivity of covalent organic frameworks",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.12823",
+              "authors": "Liu, C.-X.; Hwang, S.; Woo, H.; Lee, E.\\*; Park, S. S.\\*",
+              "journal": "*BKCS***2024**, *45*, 296.",
+              "note": "Special issue: “Recent Advances in Materials Chemistry: Structure, Property, and Function”",
+              "images": [
+                {
+                  "image": "images/uploads/pub-30-1.webp",
+                  "width": 230
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "items": [
+            {
+              "number": "29",
+              "title": "Heterogenization of molecular electrocatalytic active sites through reticular chemistry",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202203791",
+              "authors": "Kim, M.; Yi, J.; Park, S.-H.; Park, S. S.\\*",
+              "journal": "*Adv. Mater.* **2023**, *35*, 2203791.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-29-1.webp",
+                  "width": 230
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "items": [
+            {
+              "number": "28",
+              "title": "Chemical vapor deposition of edge-on oriented 2D conductive metal-organic framework thin films",
+              "url": "https://pubs.acs.org/doi/full/10.1021/jacs.2c07135",
+              "authors": "Choe, M.; Koo, J. Y.; Park, I.; Ohtsu, H.; Shim, J. H.\\*; Choi, H. C.\\*; Park, S. S.\\*",
+              "journal": "*J. Am. Chem. Soc.* **2022**, *144*, 16726.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-28-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "27",
+              "title": "Promoting oxygen evolution reaction induced by synergetic geometric and electronic effects of IrCo thin-film electrocatalysts",
+              "url": "https://pubs.acs.org/doi/10.1021/acscatal.2c00856",
+              "authors": "Kim, K.-S.; Park, S.-A.; Jung, H. D.; Jung, S.-M.; Woo, H.; Ahn, D.; Park, S. S.; Back, S.\\*; Kim, Y.-T.\\*",
+              "journal": "*ACS Catal.* **2022**, *12*, 6334.",
+              "note": "",
+              "images": [
+                {
+                  "image": "images/uploads/pub-27-1.webp",
+                  "width": 230
+                }
+              ]
+            },
+            {
+              "number": "26",
+              "title": "Programming “Atomic Substitution” in Alloy Colloidal Crystals Using DNA",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.1c03742",
+              "authors": "Landy, K. M.; Gibson, K. J.; Urbach, Z. J.; Park, S. S.; Roth, E. W.; Weigand, S.; Mirkin, C. A. *Nano. Lett.* **2022**, *22*, 280.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "25",
+              "title": "Probing the consequences of cubic particle shape and applied field on colloidal crystal engineering with DNA",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202012907",
+              "authors": "Urbach, Z. J.†;Park, S. S.†; Weigand, S. L.; Rix, J. E.; Lee, B.; Mirkin, C. A. *Angew. Chem.* **2021**, *133*, 4111.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "24",
+              "title": "Colloidal crystal engineering with metal-organic framework nanoparticles and DNA",
+              "url": "https://www.nature.com/articles/s41467-020-16339-w",
+              "authors": "Wang, S.; Park, S. S.; Buru, C. T., Lin, H.; Chen, P.-C.; Roth, E. W.; Farha, O. M.; Mirkin, C. A. *Nat. Commun.* **2020**, *11*, 2495.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "23",
+              "title": "Isoreticular linker substitution in conductive metal-organic frameworks with through-space transport pathways",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202004697",
+              "authors": "Xie, L.†; Park, S. S.†; Chmielewski, M. J.; Li, H.; Kharod, R. A.; Campbell, M. G.;  Dincă, M. *Angew. Chem.* **2020**, *132*, 19791.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "22",
+              "title": "DNA and field-mediated assembly of magnetic nanoparticles into high-aspect ratio crystals",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201906626",
+              "authors": "Park, S. S.†; Urbach, Z. J.†; Brisbois, C. A.; Parker, K. A.; Partridge, B. E.; Oh, T.; Dravid, V. P.; Olvera de la Cruz, M.; Mirkin, C. A. *Adv. Mater.* **2020**, *32*, 1906626.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "21",
+              "title": "Toward new 2D zirconium-based metal-organic frameworks: synthesis, structures, and electronic properties",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.9b02462",
+              "authors": "Cadiau, A.; Xie, L. S.; Kolobov, N.; Shkurenko, A.; Qureshi, M.; Tchalala, M. R.; Park, S. S.; Bavykina, A.; Eddaoudi, M.; Dincă, M. Hendon, C. H.; Gascon, J. *Chem. Mater.* **2020**, *32*, 97.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "20",
+              "title": "Conductive 2D metal-organic framework for high-performance cathodes in aqueous rechargeable zinc batteries",
+              "url": "https://www.nature.com/articles/s41467-019-12857-4",
+              "authors": "Nam, K. W.†; Park, S. S.†; dos Reis, R.; Dravid, V. P.; Kim, H.; Mirkin, C. A.; Stoddart, J. F. *Nat. Commun.* **2019**, *10*, 4948.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "19",
+              "title": "High Li+ and Mg2+ conductivity in a Cu-azolate metal-organic framework",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.8b13418",
+              "authors": "Miner, E. M.; Park, S. S.; Dincă, M. *J. Am. Chem. Soc.* **2019**, *141*, 4422-4427.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "18",
+              "title": "Stabilization of colloidal crystals engineered with DNA",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201805480",
+              "authors": "Oh, T.†; Park, S. S.†; Mirkin, C. A. *Adv. Mater.* **2019**, *31*, 1805480.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "17",
+              "title": "Tunable mixed-valence doping towards record electrical conductivity in a three-dimensional metal-organic framework",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.8b03604",
+              "authors": "Xie, L. S.; Sun, L.; Wan, R.; Park, S. S.; DeGayner, J. A.; Hendon, C. H.; Dincă, M. *J. Am. Chem. Soc.* **2018**, *140*, 7411-7414.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "16",
+              "title": "Selective vapor pressure dependent proton transport in a metal-organic framework with two distinct hydrophilic pores",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.7b12784",
+              "authors": "Park, S. S.; Rieth, A. J.; Hendon, C. H.; Dincă, M. *J. Am. Chem. Soc.* **2018**, *140*, 2016-2019.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "15",
+              "title": "Single-ion Li+, Na+ and Mg2+ solid electrolytes supported by a mesoporous anionic Cu-azolate MOF",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.7b06197",
+              "authors": "Park, S. S.†; Tulchinsky, Y.†; Dincă, M. *J. Am. Chem. Soc.* **2017**, *139*, 13260-13263.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "14",
+              "title": "Is iron unique in promoting electrical conductivity in MOFs?",
+              "url": "https://pubs.rsc.org/en/content/articlehtml/2017/sc/c7sc00647k",
+              "authors": "Sun, L.; Hendon, C. H.; Park, S. S.; Tulchinsky, Y.; Wan, R.; Wang, F.; Walsh, A.; Dincă, M. *Chem. Sci.* **2017**, *8*, 4450-4457.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "13",
+              "title": "The organic SBU: Strong π-stacking interactions define topology in MIT-25, a mesoporous MOF with proton-replete channels",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6b13176",
+              "authors": "Park, S. S.; Hendon, C. H.; Fielding, A. J.; Walsh, A.; O’Keeffe, M.; Dincă, M. *J. Am. Chem. Soc.* **2017**, *139*, 3619-3622.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "12",
+              "title": "Measuring and reporting electrical conductivity in metal-organic frameworks: Cd2(TTFTB) as a case study",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6b09345",
+              "authors": "Sun, L.; Park, S. S.; Sheberla, D.; Dincă, M. *J. Am. Chem. Soc.* **2016**, *138*, 14772-14782.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "11",
+              "title": "Photon energy storage materials with high energy densities based on diacetylene-azobenzene derivatives",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2016/ta/c6ta07086h/unauth#!divAbstract",
+              "authors": "Han, G. D.; Park, S. S.; Liu, Y.; Zhitomirsky, D.; Cho, E.; Dincă, M.; Grossman, J. C. *J. Mater. Chem. A* **2016**, *4*, 16157-16165.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "10",
+              "title": "Cation-dependent intrinsic electrical conductivity in isostructural tetrathiafulvalene-based microporous metal–organic frameworks",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/ja512437u",
+              "authors": "Park, S. S.; Hontz, E. R.; Sun, L.; Hendon, C. H.; Walsh, A.; Van Voorhis, T.; Dincă, M.  *J. Am. Chem. Soc.***2015**, *137*, 1774-1777.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "9",
+              "title": "The real-time in vivo electrochemical measurement of nitric oxide and carbon monoxide release upon direct epidural electrical stimulation of the rat neocortex",
+              "url": "https://pubs.rsc.org/en/content/articlelanding/2015/an/c5an00122f/unauth",
+              "authors": "Park, S. S.; Hong, M.; Ha, Y.; Sim, J.; Jhon, G.-J.; Lee, Y.; Suh, M. *Analyst.* **2015**, *140*, 3415-3421.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "8",
+              "title": "Improved electrochemical microsensor for the real-time simultaneous analysis of endogenous nitric oxide and carbon monoxide generation",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/ac2031628",
+              "authors": "Park, S. S.†; Kim, J.†; Lee, Y. *Anal. Chem.* **2012**, *84*, 1792-1796.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "7",
+              "title": "Heterogeneity of skin surface oxygen level of wrist in relation to acupuncture point",
+              "url": "https://www.hindawi.com/journals/ecam/2012/106762/abs/",
+              "authors": "Hong, M.†; Park, S. S.†; Ha, Y.†; Lee, J.; Yoo, K.; Jhon, G.-J.; Suh, M.; Lee, Y. *Evid. Based. Complement. Alternat. Med.* **2012,** *2012*, 106762.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "6",
+              "title": "Study of the primo-vascular system and location-dependent oxygen levels for mouse embryo",
+              "url": "https://www.ingentaconnect.com/content/asp/jnn/2012/00000012/00000007/art00009",
+              "authors": "Hong, M.; Park, S. S.; Do. H.; Jhon, G.-J.; Suh, M.; Lee, Y. *J. Nanosci. Nanotechnol.* **2012**, *12*, 5168-5172.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "5",
+              "title": "Primo vascular system of murine melanoma and heterogeneity of tissue oxygenation of the melanoma",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2005290111000033",
+              "authors": "Hong, M.; Park, S. S.; Do. H.; Jhon, G.-J.; Lee, Y.; Suh, M. *J. Acupunct. Meridian Stud.* **2011**,*4*, 159-163.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "4",
+              "title": "Real-time *in vivo* simultaneous measurements of nitric oxide and oxygen using an amperometric dual microsensor",
+              "url": "https://pubs.acs.org/doi/abs/10.1021/ac1013496",
+              "authors": "Park, S. S.; Hong, M.; Song, C.-K.; Jhon, G.-J.; Lee, Y.; Suh, M. *Anal. Chem.* **2010**, *82*, 7618-7624.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "3",
+              "title": "Heterogeneity of skin oxygen density distribution: relation to location of acupuncture points",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2005290109600674",
+              "authors": "Lee, Y.; Lee, G.; Park, S. S.; Jang, A.; Jhon, G.-J. *J. Acupunct. Meridian Stud.***2009**,*2*, 269-272.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "2",
+              "title": "Dual electrochemical microsensor for simultaneous measurements of nitiric oxide and oxygen: Fabrication and characterization",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1388248109004263",
+              "authors": "Park, S. S.; Tatum, C. E.; Lee, Y. *Electrochem. Commun.* **2009**, *11*, 2040-2043.",
+              "journal": "",
+              "note": "",
+              "images": []
+            },
+            {
+              "number": "1",
+              "title": "The crystal structure of ferritin from *Helicobacter pylori* reveals unusual conformational changes for iron uptake",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0022283609005452",
+              "authors": "Cho, K. J.; Shin, H. J.; Lee, J.-H.; Kim, K.-J.; Park S. S.; Lee, Y.; Lee, C.; Park, S. S.; Kim, K. H. *J. Mol. Biol.* **2009**, *390*, 83-98.",
+              "journal": "",
+              "note": "",
+              "images": []
+            }
+          ]
         }
-       ]
+      ],
+      "style": {
+        "pad_top": 0,
+        "pad_bottom": 40,
+        "align": "left"
       }
-     ]
     },
     {
-     "year": "2025",
-     "items": [
-      {
-       "number": "49",
-       "title": "Tuning the Electrical Properties through Metal-Ion-Mediated Assembly in Au25 Nanocluster-Based Frameworks",
-       "url": "https://pubs.acs.org/doi/10.1021/jacs.5c06695",
-       "authors": "Kim, S.; Jääskö, H.; Park, K. C.; Malola, S.; Häkkinen, H.\\*; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2025**, *147*, 30803.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-49-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "48",
-       "title": "Isoreticular Moiré Metal-Organic Frameworks with Quasiperiodicity",
-       "url": "https://www.nature.com/articles/s41467-025-62247-2",
-       "authors": "Kim, J.; Lee, J.; Cho, C.; Nam, J.; Ji, B.; Cho, H.; Shin, H. T.; Sivanesan, D.; Park, S. S.; Kim, J.; Choe, W.\\*",
-       "journal": "*Nat. Commun.* **2025**, *16*, 7384.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-48-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "47",
-       "title": "Metal Organic Framework/Au Core/Shell Nanocubes for Spatially Aligned MolecularAnalysis and Molecular Fingerprint Sensing with Surface Enhanced Raman Scattering",
-       "url": "https://doi.org/10.1021/jacs.5c05420",
-       "authors": "Shin, H.-J.; Choi, K.; Son, J.; Kim, M.; Park, S. S.\\*; Nam, J.-M.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2025**, *147*, 29792.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-47-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "46",
-       "title": "Direct Imaging of Co-CUK-1 Framework with H2O Guests",
-       "url": "https://doi.org/10.1002/smll.202411292",
-       "authors": "Yang, D.-H.; Kim, M.; Ko, J.; Kim, G.-Y.; Park, H. G.; Park, S. S.; Cho, K. H.; Lee, J. S.; Chang, J.-S.; Lee, U.-H.; Ishikawa, R.; Shibata, N.; Jung, Y.; Kim, J.\\*; Mizoguchi, T.\\*; Choi, S.-Y.\\*",
-       "journal": "*Small* **2025**, *24*, 2411292.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-46-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "45",
-       "title": "Synthesis of Au13Cu4 Nanoclusters with Isomeric Mercaptobenzoic Acid Ligands",
-       "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c01792",
-       "authors": "Kim, M.; Park, S.; Kim, M.; Kim, S.; Seo, J.\\*; Park, S. S.\\*",
-       "journal": "*Nano Lett.* **2025**, 25, 9110.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-45-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "44",
-       "title": "Uninterrupted π-d Conjugated Three-Dimensional Conductive Metal–Organic Framework",
-       "url": "https://pubs.acs.org/doi/10.1021/acsmaterialslett.5c00244",
-       "authors": "Jeong, H.; Park, G.; Yi, J.; Kim, J.; Kim, S.; Oh, H.; Jin, H.; Park, S. S.\\*",
-       "journal": "*ACS Materials Lett.* **2025**, *7*, 2056.",
-       "note": "Special issue: “Emerging Investigators in Materials Science”",
-       "images": [
-        {
-         "image": "images/uploads/pub-44-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "43",
-       "title": "Zwitterionic Polymer Intertwined Metal-Organic Framework-Based Quasi-Solid-StateElectrolyte for Long Cycle Life Dual-Ion Batteries",
-       "url": "https://doi.org/10.1016/j.chempr.2024.102402",
-       "authors": "Lee, Y.; Woo, H.; Kang, J.; Hwang, S.; Park, S.\\*; Park S. S.\\*",
-       "journal": "*Chem.* **2025**, *11*, 102402.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-43-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "42",
-       "title": "Synergistic Effects of Co–N4 and Ni–N4 Sites in 2D Conductive Metal–Organic Framework Electrocatalysts for Enhanced Oxygen Reduction Reaction Performance",
-       "url": "https://pubs.acs.org/doi/10.1021/acscatal.4c05773",
-       "authors": "Jung, S.-M.; Kim, S.; An, J.; Kim, K.-S.; Kim, M.; Kwon, J.; Kim, H.**\\***;Kim, Y.-T.\\*; Park, S. S.\\*",
-       "journal": "*ACS Catal.* **2025**, *15*, 5568.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-42-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "41",
-       "title": "Colloidal Crystal Engineering with DNA: A Laboratory Experience for Undergraduate Students",
-       "url": "https://doi.org/10.1021/acs.jchemed.4c00948",
-       "authors": "Landy, K. M.; Gibson, K. J.; Hunter K.; Oh, T.; Park, S. S.; Farha, O. K.; Mirkin, C. A.\\*",
-       "journal": "*J. Chem. Educ.* **2025**, *102*, 776.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-41-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "40",
-       "title": "Shape-Dependent Locomotion of DNA-Linked Magnetic Nanoparticle Films",
-       "url": "https://doi.org/10.1021/acs.nanolett.4c05189",
-       "authors": "Ko, J.; Kim, J.; Ki, K.; Moon, S.; Jeon, H.; Park, J. H.; Golla, M.; Chun, C. J.; Kim, J. S.; Lee, A.; Kim, H.; Park, S. S.; Shin, T. S.\\*;Park, S.-J.\\*",
-       "journal": "*Nano Lett.* **2025**, *25*, 419.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-40-1.webp",
-         "width": 230
-        }
-       ]
+      "type": "spacer",
+      "height": 90,
+      "style": {
+        "bg_color": "#f7f7f7"
       }
-     ]
-    },
-    {
-     "year": "2024",
-     "items": [
-      {
-       "number": "39",
-       "title": "Elucidation of the Transformation of Coordination Polymer Intermediates into 2D Metal–Organic Framework Films during Chemical Vapor Deposition",
-       "url": "https://pubs.acs.org/doi/10.1021/acs.inorgchem.4c04211",
-       "authors": "Choe, M.; Park, S. S.\\*; Choi, H. C.\\*",
-       "journal": "*Inorg. Chem.* **2024**, *63*, 22662.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-39-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "38",
-       "title": "Molecular-Level Pore Tuning in 2D Conductive Metal–Organic Frameworks for](https://pubs.acs.org/doi/10.1021/jacs.4c11372)[Advanced Supercapacitor Performance",
-       "url": "https://pubs.acs.org/doi/10.1021/jacs.4c11372",
-       "authors": "Lee, G.; Park, G.; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2024**, *146*, 29767.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-38-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "37",
-       "title": "Au25 Cluster-Based Atomically Precise Coordination Frameworks and Emission Engineering through Lattice Symmetry",
-       "url": "https://doi.org/10.1021/acsnano.4c10096",
-       "authors": "Kim, S.; Kim, H.; Lee, C.; Park, I.; Kim, Y.; Moon, D.; Shim, J. H.\\*; Ryu, S.\\*; Park, S. S.\\*",
-       "journal": "*ACS Nano* **2024**, *18*, 29036.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-37-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "36",
-       "title": "Post-Modification Approach for Self-Exfoliated Synthesis of Pyridinium Sulfobetaine Covalent Organic Frameworks for Enhanced Lithium-Ion Conductivity",
-       "url": "https://doi.org/10.1021/acsami.4c06949",
-       "authors": "Liu, C.-X.; Hwang, S.; Lee, Y.; Ko, Y. H.; Park, S. S.\\*; Lee, E.**\\***",
-       "journal": "*ACS Appl. Mater. Interfaces* **2024**, *16*, 48203.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-36-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "35",
-       "title": "Fabricating Large-Area Thin Films of 2D Conductive Metal–Organic Frameworks",
-       "url": "https://pubs.acs.org/doi/10.1021/acs.accounts.4c00292",
-       "authors": "Jeong, H.; Park, G.; Jeon, J.; Park, S. S.\\*",
-       "journal": "*Acc. Chem. Res.* **2024**, *57*, 2336.",
-       "note": "Virtual special issue: “Physical Phenomena in Porous Frameworks”",
-       "images": [
-        {
-         "image": "images/uploads/pub-35-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "34",
-       "title": "Chemically synthesized poly(3,4-ethylenedioxythiophene) conducting polymer as a robust electrocatalyst for highly efficient dye-sensitized solar cells",
-       "url": "https://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr00949e",
-       "authors": "Masud; Aftabuzzaman, M.; Zhou, H.; Kim, S.; Yi, J.; Park, S. S.; Kim, Y. S.\\*; Kim, H. K.\\*",
-       "journal": "*Nanoscale* **2024**, *16*, 13874.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-34-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "33",
-       "title": "Tailoring electrochemical water oxidation activity from the isostructural series of alkaline-stable bimetallic Fe,Ni-azolate metal-organic frameworks",
-       "url": "https://onlinelibrary.wiley.com/doi/10.1002/aenm.202401198",
-       "authors": "Kim, M.; Jeong, J.; Kim, D. H.; Park, G.; Yi, J.; Kim, S.; Kim, H.; Choi, C. H.; Shin, H.\\*; Park, S. S.\\*",
-       "journal": "*Adv. Energy Mater.* **2024**, 2401198.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-33-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "32",
-       "title": "Solvent-induced structural rearrangement in ultrasound-assisted synthesis of metal-organic frameworks",
-       "url": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400363",
-       "authors": "Yi, J.; Lee, G.; Park, S. S.\\*",
-       "journal": "*Small Methods* **2024**, 2400363.",
-       "note": "Highlighted in the “[Women in Materials Science Virtual Issue](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN%291521-4095.WomeninMaterialsScience)” hosted in *Advanced Materials*",
-       "images": [
-        {
-         "image": "images/uploads/pub-32-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "31",
-       "title": "Acid-dependent charge transport in a solution-processed 2D conductive metal-organic framework",
-       "url": "https://pubs.acs.org/doi/10.1021/jacs.4c02326",
-       "authors": "Park, G.; Demuth, M.; Hendon, C. H.\\*; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2024**, *146*, 11493.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-31-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "30",
-       "title": "From structure to function: Harnessing the ionic conductivity of covalent organic frameworks",
-       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.12823",
-       "authors": "Liu, C.-X.; Hwang, S.; Woo, H.; Lee, E.\\*; Park, S. S.\\*",
-       "journal": "*BKCS***2024**, *45*, 296.",
-       "note": "Special issue: “Recent Advances in Materials Chemistry: Structure, Property, and Function”",
-       "images": [
-        {
-         "image": "images/uploads/pub-30-1.webp",
-         "width": 230
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "year": "2023",
-     "items": [
-      {
-       "number": "29",
-       "title": "Heterogenization of molecular electrocatalytic active sites through reticular chemistry",
-       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202203791",
-       "authors": "Kim, M.; Yi, J.; Park, S.-H.; Park, S. S.\\*",
-       "journal": "*Adv. Mater.* **2023**, *35*, 2203791.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-29-1.webp",
-         "width": 230
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "year": "2022",
-     "items": [
-      {
-       "number": "28",
-       "title": "Chemical vapor deposition of edge-on oriented 2D conductive metal-organic framework thin films",
-       "url": "https://pubs.acs.org/doi/full/10.1021/jacs.2c07135",
-       "authors": "Choe, M.; Koo, J. Y.; Park, I.; Ohtsu, H.; Shim, J. H.\\*; Choi, H. C.\\*; Park, S. S.\\*",
-       "journal": "*J. Am. Chem. Soc.* **2022**, *144*, 16726.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-28-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "27",
-       "title": "Promoting oxygen evolution reaction induced by synergetic geometric and electronic effects of IrCo thin-film electrocatalysts",
-       "url": "https://pubs.acs.org/doi/10.1021/acscatal.2c00856",
-       "authors": "Kim, K.-S.; Park, S.-A.; Jung, H. D.; Jung, S.-M.; Woo, H.; Ahn, D.; Park, S. S.; Back, S.\\*; Kim, Y.-T.\\*",
-       "journal": "*ACS Catal.* **2022**, *12*, 6334.",
-       "note": "",
-       "images": [
-        {
-         "image": "images/uploads/pub-27-1.webp",
-         "width": 230
-        }
-       ]
-      },
-      {
-       "number": "26",
-       "title": "Programming “Atomic Substitution” in Alloy Colloidal Crystals Using DNA",
-       "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.1c03742",
-       "authors": "Landy, K. M.; Gibson, K. J.; Urbach, Z. J.; Park, S. S.; Roth, E. W.; Weigand, S.; Mirkin, C. A. *Nano. Lett.* **2022**, *22*, 280.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "25",
-       "title": "Probing the consequences of cubic particle shape and applied field on colloidal crystal engineering with DNA",
-       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202012907",
-       "authors": "Urbach, Z. J.†;Park, S. S.†; Weigand, S. L.; Rix, J. E.; Lee, B.; Mirkin, C. A. *Angew. Chem.* **2021**, *133*, 4111.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "24",
-       "title": "Colloidal crystal engineering with metal-organic framework nanoparticles and DNA",
-       "url": "https://www.nature.com/articles/s41467-020-16339-w",
-       "authors": "Wang, S.; Park, S. S.; Buru, C. T., Lin, H.; Chen, P.-C.; Roth, E. W.; Farha, O. M.; Mirkin, C. A. *Nat. Commun.* **2020**, *11*, 2495.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "23",
-       "title": "Isoreticular linker substitution in conductive metal-organic frameworks with through-space transport pathways",
-       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202004697",
-       "authors": "Xie, L.†; Park, S. S.†; Chmielewski, M. J.; Li, H.; Kharod, R. A.; Campbell, M. G.;  Dincă, M. *Angew. Chem.* **2020**, *132*, 19791.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "22",
-       "title": "DNA and field-mediated assembly of magnetic nanoparticles into high-aspect ratio crystals",
-       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201906626",
-       "authors": "Park, S. S.†; Urbach, Z. J.†; Brisbois, C. A.; Parker, K. A.; Partridge, B. E.; Oh, T.; Dravid, V. P.; Olvera de la Cruz, M.; Mirkin, C. A. *Adv. Mater.* **2020**, *32*, 1906626.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "21",
-       "title": "Toward new 2D zirconium-based metal-organic frameworks: synthesis, structures, and electronic properties",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.9b02462",
-       "authors": "Cadiau, A.; Xie, L. S.; Kolobov, N.; Shkurenko, A.; Qureshi, M.; Tchalala, M. R.; Park, S. S.; Bavykina, A.; Eddaoudi, M.; Dincă, M. Hendon, C. H.; Gascon, J. *Chem. Mater.* **2020**, *32*, 97.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "20",
-       "title": "Conductive 2D metal-organic framework for high-performance cathodes in aqueous rechargeable zinc batteries",
-       "url": "https://www.nature.com/articles/s41467-019-12857-4",
-       "authors": "Nam, K. W.†; Park, S. S.†; dos Reis, R.; Dravid, V. P.; Kim, H.; Mirkin, C. A.; Stoddart, J. F. *Nat. Commun.* **2019**, *10*, 4948.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "19",
-       "title": "High Li+ and Mg2+ conductivity in a Cu-azolate metal-organic framework",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.8b13418",
-       "authors": "Miner, E. M.; Park, S. S.; Dincă, M. *J. Am. Chem. Soc.* **2019**, *141*, 4422-4427.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "18",
-       "title": "Stabilization of colloidal crystals engineered with DNA",
-       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201805480",
-       "authors": "Oh, T.†; Park, S. S.†; Mirkin, C. A. *Adv. Mater.* **2019**, *31*, 1805480.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "17",
-       "title": "Tunable mixed-valence doping towards record electrical conductivity in a three-dimensional metal-organic framework",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.8b03604",
-       "authors": "Xie, L. S.; Sun, L.; Wan, R.; Park, S. S.; DeGayner, J. A.; Hendon, C. H.; Dincă, M. *J. Am. Chem. Soc.* **2018**, *140*, 7411-7414.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "16",
-       "title": "Selective vapor pressure dependent proton transport in a metal-organic framework with two distinct hydrophilic pores",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.7b12784",
-       "authors": "Park, S. S.; Rieth, A. J.; Hendon, C. H.; Dincă, M. *J. Am. Chem. Soc.* **2018**, *140*, 2016-2019.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "15",
-       "title": "Single-ion Li+, Na+ and Mg2+ solid electrolytes supported by a mesoporous anionic Cu-azolate MOF",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.7b06197",
-       "authors": "Park, S. S.†; Tulchinsky, Y.†; Dincă, M. *J. Am. Chem. Soc.* **2017**, *139*, 13260-13263.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "14",
-       "title": "Is iron unique in promoting electrical conductivity in MOFs?",
-       "url": "https://pubs.rsc.org/en/content/articlehtml/2017/sc/c7sc00647k",
-       "authors": "Sun, L.; Hendon, C. H.; Park, S. S.; Tulchinsky, Y.; Wan, R.; Wang, F.; Walsh, A.; Dincă, M. *Chem. Sci.* **2017**, *8*, 4450-4457.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "13",
-       "title": "The organic SBU: Strong π-stacking interactions define topology in MIT-25, a mesoporous MOF with proton-replete channels",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6b13176",
-       "authors": "Park, S. S.; Hendon, C. H.; Fielding, A. J.; Walsh, A.; O’Keeffe, M.; Dincă, M. *J. Am. Chem. Soc.* **2017**, *139*, 3619-3622.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "12",
-       "title": "Measuring and reporting electrical conductivity in metal-organic frameworks: Cd2(TTFTB) as a case study",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6b09345",
-       "authors": "Sun, L.; Park, S. S.; Sheberla, D.; Dincă, M. *J. Am. Chem. Soc.* **2016**, *138*, 14772-14782.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "11",
-       "title": "Photon energy storage materials with high energy densities based on diacetylene-azobenzene derivatives",
-       "url": "https://pubs.rsc.org/en/content/articlelanding/2016/ta/c6ta07086h/unauth#!divAbstract",
-       "authors": "Han, G. D.; Park, S. S.; Liu, Y.; Zhitomirsky, D.; Cho, E.; Dincă, M.; Grossman, J. C. *J. Mater. Chem. A* **2016**, *4*, 16157-16165.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "10",
-       "title": "Cation-dependent intrinsic electrical conductivity in isostructural tetrathiafulvalene-based microporous metal–organic frameworks",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/ja512437u",
-       "authors": "Park, S. S.; Hontz, E. R.; Sun, L.; Hendon, C. H.; Walsh, A.; Van Voorhis, T.; Dincă, M.  *J. Am. Chem. Soc.***2015**, *137*, 1774-1777.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "9",
-       "title": "The real-time in vivo electrochemical measurement of nitric oxide and carbon monoxide release upon direct epidural electrical stimulation of the rat neocortex",
-       "url": "https://pubs.rsc.org/en/content/articlelanding/2015/an/c5an00122f/unauth",
-       "authors": "Park, S. S.; Hong, M.; Ha, Y.; Sim, J.; Jhon, G.-J.; Lee, Y.; Suh, M. *Analyst.* **2015**, *140*, 3415-3421.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "8",
-       "title": "Improved electrochemical microsensor for the real-time simultaneous analysis of endogenous nitric oxide and carbon monoxide generation",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/ac2031628",
-       "authors": "Park, S. S.†; Kim, J.†; Lee, Y. *Anal. Chem.* **2012**, *84*, 1792-1796.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "7",
-       "title": "Heterogeneity of skin surface oxygen level of wrist in relation to acupuncture point",
-       "url": "https://www.hindawi.com/journals/ecam/2012/106762/abs/",
-       "authors": "Hong, M.†; Park, S. S.†; Ha, Y.†; Lee, J.; Yoo, K.; Jhon, G.-J.; Suh, M.; Lee, Y. *Evid. Based. Complement. Alternat. Med.* **2012,** *2012*, 106762.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "6",
-       "title": "Study of the primo-vascular system and location-dependent oxygen levels for mouse embryo",
-       "url": "https://www.ingentaconnect.com/content/asp/jnn/2012/00000012/00000007/art00009",
-       "authors": "Hong, M.; Park, S. S.; Do. H.; Jhon, G.-J.; Suh, M.; Lee, Y. *J. Nanosci. Nanotechnol.* **2012**, *12*, 5168-5172.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "5",
-       "title": "Primo vascular system of murine melanoma and heterogeneity of tissue oxygenation of the melanoma",
-       "url": "https://www.sciencedirect.com/science/article/pii/S2005290111000033",
-       "authors": "Hong, M.; Park, S. S.; Do. H.; Jhon, G.-J.; Lee, Y.; Suh, M. *J. Acupunct. Meridian Stud.* **2011**,*4*, 159-163.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "4",
-       "title": "Real-time *in vivo* simultaneous measurements of nitric oxide and oxygen using an amperometric dual microsensor",
-       "url": "https://pubs.acs.org/doi/abs/10.1021/ac1013496",
-       "authors": "Park, S. S.; Hong, M.; Song, C.-K.; Jhon, G.-J.; Lee, Y.; Suh, M. *Anal. Chem.* **2010**, *82*, 7618-7624.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "3",
-       "title": "Heterogeneity of skin oxygen density distribution: relation to location of acupuncture points",
-       "url": "https://www.sciencedirect.com/science/article/pii/S2005290109600674",
-       "authors": "Lee, Y.; Lee, G.; Park, S. S.; Jang, A.; Jhon, G.-J. *J. Acupunct. Meridian Stud.***2009**,*2*, 269-272.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "2",
-       "title": "Dual electrochemical microsensor for simultaneous measurements of nitiric oxide and oxygen: Fabrication and characterization",
-       "url": "https://www.sciencedirect.com/science/article/pii/S1388248109004263",
-       "authors": "Park, S. S.; Tatum, C. E.; Lee, Y. *Electrochem. Commun.* **2009**, *11*, 2040-2043.",
-       "journal": "",
-       "note": "",
-       "images": []
-      },
-      {
-       "number": "1",
-       "title": "The crystal structure of ferritin from *Helicobacter pylori* reveals unusual conformational changes for iron uptake",
-       "url": "https://www.sciencedirect.com/science/article/pii/S0022283609005452",
-       "authors": "Cho, K. J.; Shin, H. J.; Lee, J.-H.; Kim, K.-J.; Park S. S.; Lee, Y.; Lee, C.; Park, S. S.; Kim, K. H. *J. Mol. Biol.* **2009**, *390*, 83-98.",
-       "journal": "",
-       "note": "",
-       "images": []
-      }
-     ]
     }
-   ],
-   "style": {
-    "pad_top": 0,
-    "pad_bottom": 40,
-    "align": "left"
-   }
-  },
-  {
-   "type": "spacer",
-   "height": 90,
-   "style": {
-    "bg_color": "#f7f7f7"
-   }
-  }
- ]
+  ]
 }
