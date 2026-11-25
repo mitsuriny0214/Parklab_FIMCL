@@ -284,6 +284,13 @@
         "pad_top": 60,
         "pad_bottom": 40
       }
+    },
+    {
+      "type": "spacer",
+      "height": 80,
+      "style": {
+        "bg_color": "#f7f7f7"
+      }
     }
   ]
 }
