@@ -1,0 +1,437 @@
+{
+ "blocks": [
+  {
+   "type": "page_title",
+   "title": "GROUP PHOTOS",
+   "rule": true,
+   "rule_gap": 43,
+   "style": {
+    "pad_top": 48,
+    "pad_bottom": 42,
+    "align": "center"
+   }
+  },
+  {
+   "type": "photo_grid",
+   "columns": 4,
+   "items": [
+    {
+     "image": "images/uploads/photo-001.webp",
+     "title": "260611 Dr. LJK after defense"
+    },
+    {
+     "image": "images/uploads/photo-002.webp",
+     "title": "260605 Dr. PGC after defense"
+    },
+    {
+     "image": "images/uploads/photo-003.webp",
+     "title": "260416 KCS"
+    },
+    {
+     "image": "images/uploads/photo-004.webp",
+     "title": "260416 KCS"
+    },
+    {
+     "image": "images/uploads/photo-005.webp",
+     "title": "260416 KCS"
+    },
+    {
+     "image": "images/uploads/photo-006.webp",
+     "title": "260415 KCS"
+    },
+    {
+     "image": "images/uploads/photo-007.webp",
+     "title": "260415 KCS"
+    },
+    {
+     "image": "images/uploads/photo-008.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-009.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-010.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-011.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-012.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-013.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-014.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-015.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-016.webp",
+     "title": "260414 Group Outing"
+    },
+    {
+     "image": "images/uploads/photo-017.webp",
+     "title": "260407 Group Photo"
+    },
+    {
+     "image": "images/uploads/photo-018.webp",
+     "title": "260213 Graduation"
+    },
+    {
+     "image": "images/uploads/photo-019.webp",
+     "title": "260211 Samsung Humantech Awards"
+    },
+    {
+     "image": "images/uploads/photo-020.webp",
+     "title": "251229 Group Dinner"
+    },
+    {
+     "image": "images/uploads/photo-021.webp",
+     "title": "251204 Department Dinner"
+    },
+    {
+     "image": "images/uploads/photo-022.webp",
+     "title": "251031 Nobel Science Talk Concert"
+    },
+    {
+     "image": "images/uploads/photo-023.webp",
+     "title": "250808 GRC: ping-pong with O. Farha"
+    },
+    {
+     "image": "images/uploads/photo-024.webp",
+     "title": "250805 GRC"
+    },
+    {
+     "image": "images/uploads/photo-025.webp",
+     "title": "250805 GRC"
+    },
+    {
+     "image": "images/uploads/photo-026.webp",
+     "title": "250805 GRC"
+    },
+    {
+     "image": "images/uploads/photo-027.webp",
+     "title": "250804 GRC"
+    },
+    {
+     "image": "images/uploads/photo-028.webp",
+     "title": "250704 KCS Inorg. Chem. Div. #1"
+    },
+    {
+     "image": "images/uploads/photo-029.webp",
+     "title": "250704 KCS Inorg. Chem. Div. #2"
+    },
+    {
+     "image": "images/uploads/photo-030.webp",
+     "title": "250704 KCS Inorg. Chem. Div. #3"
+    },
+    {
+     "image": "images/uploads/photo-031.webp",
+     "title": "250515 Teachers' Day"
+    },
+    {
+     "image": "images/uploads/photo-032.webp",
+     "title": "250331 Group Photo"
+    },
+    {
+     "image": "images/uploads/photo-033.webp",
+     "title": "250207 Graduation"
+    },
+    {
+     "image": "images/uploads/photo-034.webp",
+     "title": "250318 Jiwon Best TA Award"
+    },
+    {
+     "image": "images/uploads/photo-035.webp",
+     "title": "241219 Gyuwon's Master's Defense"
+    },
+    {
+     "image": "images/uploads/photo-036.webp",
+     "title": "241216 End-of-Year Party"
+    },
+    {
+     "image": "images/uploads/photo-037.webp",
+     "title": "241128 Chemistry Night #1"
+    },
+    {
+     "image": "images/uploads/photo-038.webp",
+     "title": "241128 Chemistry Night #2"
+    },
+    {
+     "image": "images/uploads/photo-039.webp",
+     "title": "241128 Chemistry Night #3"
+    },
+    {
+     "image": "images/uploads/photo-040.webp",
+     "title": "241128 Outstanding Paper Award #1"
+    },
+    {
+     "image": "images/uploads/photo-041.webp",
+     "title": "241128 Outstanding Paper Award #2"
+    },
+    {
+     "image": "images/uploads/photo-042.webp",
+     "title": "241114 Best TA Award #1"
+    },
+    {
+     "image": "images/uploads/photo-043.webp",
+     "title": "241114 Best TA Award #2"
+    },
+    {
+     "image": "images/uploads/photo-044.webp",
+     "title": "241024 PSBT Workshop"
+    },
+    {
+     "image": "images/uploads/photo-045.webp",
+     "title": "241017 KCS #1"
+    },
+    {
+     "image": "images/uploads/photo-046.webp",
+     "title": "241017 KCS #2"
+    },
+    {
+     "image": "images/uploads/photo-047.webp",
+     "title": "241008 ECS PRiME #1"
+    },
+    {
+     "image": "images/uploads/photo-048.webp",
+     "title": "241008 ECS PRiME #2"
+    },
+    {
+     "image": "images/uploads/photo-049.webp",
+     "title": "240924 Outstanding Paper Award"
+    },
+    {
+     "image": "images/uploads/photo-050.webp",
+     "title": "240807 UG Research Participation"
+    },
+    {
+     "image": "images/uploads/photo-051.webp",
+     "title": "240619 Hyerin's Master's Defense #1"
+    },
+    {
+     "image": "images/uploads/photo-052.webp",
+     "title": "240619 Hyerin's Master's Defense #2"
+    },
+    {
+     "image": "images/uploads/photo-053.webp",
+     "title": "240607 Hyebeen's Master's Defense #1"
+    },
+    {
+     "image": "images/uploads/photo-054.webp",
+     "title": "240607 Hyebeen's Master's Defense #2"
+    },
+    {
+     "image": "images/uploads/photo-055.webp",
+     "title": "240607 Hyebeen's Master's Defense #3"
+    },
+    {
+     "image": "images/uploads/photo-056.webp",
+     "title": "240515 Teachers' Day"
+    },
+    {
+     "image": "images/uploads/photo-057.webp",
+     "title": "240424 KCS #1"
+    },
+    {
+     "image": "images/uploads/photo-058.webp",
+     "title": "240424 KCS #2"
+    },
+    {
+     "image": "images/uploads/photo-059.webp",
+     "title": "240424 KCS #3"
+    },
+    {
+     "image": "images/uploads/photo-060.webp",
+     "title": "240329 FIMCL MT #1"
+    },
+    {
+     "image": "images/uploads/photo-061.webp",
+     "title": "240329 FIMCL MT #2"
+    },
+    {
+     "image": "images/uploads/photo-062.webp",
+     "title": "240329 FIMCL MT #3"
+    },
+    {
+     "image": "images/uploads/photo-063.webp",
+     "title": "240202 Graduation Day"
+    },
+    {
+     "image": "images/uploads/photo-064.webp",
+     "title": "230711 SRC Workshop #1"
+    },
+    {
+     "image": "images/uploads/photo-065.webp",
+     "title": "230710 SRC Workshop #2"
+    },
+    {
+     "image": "images/uploads/photo-066.webp",
+     "title": "230709 SRC Workshop #3"
+    },
+    {
+     "image": "images/uploads/photo-067.webp",
+     "title": "230622 KCS Inorg. Chem. Div. #1"
+    },
+    {
+     "image": "images/uploads/photo-068.webp",
+     "title": "230622 KCS Inorg. Chem. Div. #2"
+    },
+    {
+     "image": "images/uploads/photo-069.webp",
+     "title": "230608 Hayun & Yeji's Master's Defense #1"
+    },
+    {
+     "image": "images/uploads/photo-070.webp",
+     "title": "230608 Hayun & Yeji's Master's Defense #2"
+    },
+    {
+     "image": "images/uploads/photo-071.webp",
+     "title": "230525 Minseok's Master's Defense #1"
+    },
+    {
+     "image": "images/uploads/photo-072.webp",
+     "title": "230525 Minseok's Master's Defense #2"
+    },
+    {
+     "image": "images/uploads/photo-073.webp",
+     "title": "230427 KCS #1"
+    },
+    {
+     "image": "images/uploads/photo-074.webp",
+     "title": "230427 KCS #2"
+    },
+    {
+     "image": "images/uploads/photo-075.webp",
+     "title": "230330 2nd Group Photo"
+    },
+    {
+     "image": "images/uploads/photo-076.webp",
+     "title": "221229 End-of-Year Party"
+    },
+    {
+     "image": "images/uploads/photo-077.webp",
+     "title": "221221 Eunseol's Master's Defense"
+    },
+    {
+     "image": "images/uploads/photo-078.webp",
+     "title": "221124 Qatar World Cup #1"
+    },
+    {
+     "image": "images/uploads/photo-079.webp",
+     "title": "221124 Qatar World Cup #2"
+    },
+    {
+     "image": "images/uploads/photo-080.webp",
+     "title": "220623 KCS Inorg. Chem. Div."
+    },
+    {
+     "image": "images/uploads/photo-081.webp",
+     "title": "220515 Teachers' Day"
+    },
+    {
+     "image": "images/uploads/photo-082.webp",
+     "title": "220415 KCS #1"
+    },
+    {
+     "image": "images/uploads/photo-083.webp",
+     "title": "220415 KCS #2"
+    },
+    {
+     "image": "images/uploads/photo-084.webp",
+     "title": "220415 KCS #3"
+    },
+    {
+     "image": "images/uploads/photo-085.webp",
+     "title": "220208 Sinhyeop's PhD Proposal"
+    },
+    {
+     "image": "images/uploads/photo-086.webp",
+     "title": "220117 HBD, Professor!"
+    },
+    {
+     "image": "images/uploads/photo-087.webp",
+     "title": "211227 End-of-Year Party #1"
+    },
+    {
+     "image": "images/uploads/photo-088.webp",
+     "title": "211227 End-of-Year Party #2"
+    },
+    {
+     "image": "images/uploads/photo-089.webp",
+     "title": "211125 UG Research Participation"
+    },
+    {
+     "image": "images/uploads/photo-090.webp",
+     "title": "211119 1st Group Photo #1"
+    },
+    {
+     "image": "images/uploads/photo-091.webp",
+     "title": "211119 1st Group Photo #2"
+    },
+    {
+     "image": "images/uploads/photo-092.webp",
+     "title": "210515 Teachers' Day #1"
+    },
+    {
+     "image": "images/uploads/photo-093.webp",
+     "title": "210515 Teachers' Day #2"
+    },
+    {
+     "image": "images/uploads/photo-094.webp",
+     "title": "200730 Lab Open Party #1"
+    },
+    {
+     "image": "images/uploads/photo-095.webp",
+     "title": "200730 Lab Open Party #2"
+    },
+    {
+     "image": "images/uploads/photo-096.webp",
+     "title": "200730 Lab Open Party #3"
+    },
+    {
+     "image": "images/uploads/photo-097.webp",
+     "title": "200730 Lab Open Party #4"
+    },
+    {
+     "image": "images/uploads/photo-098.webp",
+     "title": "200730 Lab Open Party #5"
+    },
+    {
+     "image": "images/uploads/photo-099.webp",
+     "title": ""
+    },
+    {
+     "image": "images/uploads/photo-100.webp",
+     "title": "200730 Lab Open Party #6"
+    },
+    {
+     "image": "images/uploads/photo-101.webp",
+     "title": "200515 Teachers' Day"
+    }
+   ],
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 48,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}

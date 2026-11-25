@@ -1,0 +1,107 @@
+{
+ "blocks": [
+  {
+   "type": "page_title",
+   "title": "Alumni",
+   "rule": false,
+   "rule_gap": 0,
+   "style": {
+    "pad_top": 48,
+    "pad_bottom": 30,
+    "align": "center"
+   },
+   "button_label": "Update information",
+   "button_url": "https://forms.gle/LE3sRdN69wuCK51i9",
+   "title_regular": true
+  },
+  {
+   "type": "line_list",
+   "heading": "GRADUATE STUDENTS",
+   "items": [
+    {
+     "text": "**EUNSEOL BAE, M.S.** (2020.09 – 2023.02)"
+    },
+    {
+     "text": "**JUNSOO HA, M.S.** (2021.02 – 2023.10), POSTECH"
+    },
+    {
+     "text": "**SOOMIN HWANG, M.S.** (2023.02 –2025. 08)"
+    },
+    {
+     "text": "**HYEBEEN JEONG, M.S.** (2022.09 – 2024.08), POSTECH"
+    },
+    {
+     "text": "**SINHYEOP KIM, Ph. D.** (2020.02 – 2025.08), Samsung Electro-Mechanics"
+    },
+    {
+     "text": "**MINSEOK KIM, M.S.** (2021.02 – 2023.08), SK Innovation"
+    },
+    {
+     "text": "**GYUWON LEE, M.S.** (2023.02 – 2025.02),Samsung SDI"
+    },
+    {
+     "text": "**YEJI LEE, M.S.** (2021.09 – 2023.08), Samsung Electronics"
+    },
+    {
+     "text": "**HAYUN PARK, M.S.** (2021.09 – 2023.08), Samsung SDI"
+    },
+    {
+     "text": "**HYERIN WOO, M.S.** (2022.09 – 2024.08) Samsung SDI"
+    }
+   ],
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 134,
+    "align": "left"
+   }
+  },
+  {
+   "type": "line_list",
+   "heading": "UNDERGRADUATE STUDENTS",
+   "items": [
+    {
+     "text": "**Hayun Park**, 2021, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Junsoo Ha**, 2021, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Yeji Lee**, 2021, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Ilbong Lee**, 2021, graduate student (*Harvard University*)"
+    },
+    {
+     "text": "**Munjeong Kim**, 2022, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Hyebeen Jeong**, 2022, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Soomin Hwang**, 2023, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Seong-Hyeon Park**, 2025, graduate student (*POSTECH*)"
+    },
+    {
+     "text": "**Dayon Kim**, 2026, graduate student (*KAIST*)"
+    },
+    {
+     "text": "**Juhyun Kim**, 2026, graduate student (*KAIST*)"
+    }
+   ],
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 120,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}

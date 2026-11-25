@@ -1,0 +1,27 @@
+{
+ "blocks": [
+  {
+   "type": "two_columns",
+   "left_heading": "Contact Us",
+   "left_body": "우리 연구실은 현재 학부 연구 참여 학생과 대학원 과정 지망자를 받고 있습니다.\n\n학생들은 유기/무기 합성 및 X-ray diffraction, NMR, EPR, spectroscopy, electron microscopy 등의 다양한 분석 방법들을 배우게 될 것입니다. 또한, 합성된 물질의 물리적 성질 또는 전기화학적 성질을 연구하고 나아가 이들을 실질적으로 다양한 분야에 적용하는 법을 익히게 될 것입니다.\n\n**CONTACT**\n\nSarah Sunah Park\n\n**email:** sarah.park@kaist.ac.kr\n\n**office:** chem 4104",
+   "right_heading": "Mailing Address",
+   "right_body": "KAIST, Chem Bldg\n\n#4104 (Office) / #3132 (Lab)\n\n291 Daehak-ro\n\nDaejeon 34141, Korea",
+   "map_query": "291 Daehak-ro, Yuseong-gu, Daejeon, KAIST",
+   "map_zoom": 15,
+   "map_height": 384,
+   "left_width": 66,
+   "style": {
+    "pad_top": 48,
+    "pad_bottom": 48,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}

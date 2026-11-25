@@ -1,0 +1,280 @@
+{
+ "blocks": [
+  {
+   "type": "page_title",
+   "title": "GROUP MEMBERS",
+   "rule": true,
+   "rule_gap": 25,
+   "style": {
+    "pad_top": 61,
+    "pad_bottom": 55,
+    "align": "center"
+   }
+  },
+  {
+   "type": "slideshow",
+   "images": [
+    {
+     "image": "images/uploads/group-slide-01.webp",
+     "alt": "IMG_7146.jpg"
+    },
+    {
+     "image": "images/uploads/group-slide-02.webp",
+     "alt": "IMG_7458.jpg"
+    },
+    {
+     "image": "images/uploads/group-slide-03.webp",
+     "alt": "KakaoTalk_20260420_142009842_01.jpg"
+    },
+    {
+     "image": "images/uploads/group-slide-04.webp",
+     "alt": "Group Photo Cherry Blossom Rist 2025 Spring_adjusted_v1.png"
+    },
+    {
+     "image": "images/uploads/group-slide-05.webp",
+     "alt": "21.11.19 1st Group photo (2).jpg"
+    },
+    {
+     "image": "images/uploads/group-slide-06.webp",
+     "alt": "20220927_화학과 박선아 교수-07972.JPG"
+    },
+    {
+     "image": "images/uploads/group-slide-07.webp",
+     "alt": "KakaoTalk_20230330_144339533_04_2.png"
+    },
+    {
+     "image": "images/uploads/group-slide-08.webp",
+     "alt": "IMG_9550.jpg"
+    },
+    {
+     "image": "images/uploads/group-slide-09.webp",
+     "alt": "IMG_1048.jpg"
+    }
+   ],
+   "interval": 5,
+   "height": 662,
+   "button_label": "Group Alumni",
+   "button_url": "alumni.html",
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 0,
+    "align": "left"
+   }
+  },
+  {
+   "type": "members",
+   "rule_top": true,
+   "heading": "",
+   "items": [
+    {
+     "photo": "images/uploads/member-sarah-sunah-park.webp",
+     "name": "SARAH SUNAH PARK",
+     "name_large": true,
+     "role": "",
+     "details": "**Associate Professor, Dept. of Chemistry, *KAIST,* 2026**\n\nAssociate Professor, Dept. of Chemistry, *POSTECH*, 2024-2026\n\nAssistant Professor, Dept. of Chemistry, *POSTECH*, 2020-2024\n\nIIN Postdoctoral Fellow, *Northwestern University* (C. A. Mirkin), 2017-2019\n\nPh.D. *MIT* (M. Dincă), 2012-2017\n\nM.S. *Ewha Womans University* (Y. Lee), 2008-2010\n\nB.S. *Ewha Womans University*, 2005-2008\n\n \n\nEditorial Advisory Board, [**JACS**](https://pubs.acs.org/page/jacsat/editors.html)\n\nEarly Career Advisory Board, [**Inorganic Chemistry Frontiers**](https://www.rsc.org/journals-books-databases/about-journals/inorganic-chemistry-frontiers/#ECAB_ICF)\n\n \n\nsarah.park@kaist.ac.kr\n\n ",
+     "links": "[**CV**](https://parklab.kaist.ac.kr/s/CV_SPark_2024.pdf)   **|**   [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=Efzh8zQAAAAJ&view_op=list_works)   **|**   [**𝕏**](https://twitter.com/ParkLab_POSTECH)"
+    }
+   ],
+   "style": {
+    "pad_top": 21,
+    "pad_bottom": 135,
+    "align": "left"
+   }
+  },
+  {
+   "type": "members",
+   "rule_top": true,
+   "heading": "POSTDOCTORAL FELLOWS",
+   "items": [
+    {
+     "photo": "images/uploads/member-kyoungchul-park.webp",
+     "name": "KYOUNGCHUL PARK",
+     "name_large": false,
+     "role": "",
+     "details": "Ph.D. *University of South Carolina* (N. B. Shustova), 2024\n\nB.E., M.E. *Incheon National University* (C. Y. Lee), 2018\n\n \n\nkcpark33@kaist.ac.kr\n\n \n\n[**google scholar**](https://scholar.google.com/citations?hl=en&user=7st_x9IAAAAJ&view_op=list_works&gmla=A[%E2%80%A6]bWzaci-MY-aS9KaJVp6ObjI_ysPb8AreB-6pzju1jV2CIGmVXq3y_M6Dlfg)   **|**   [**𝕏**](https://twitter.com/KyoungchulP)",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-jaekyung-yi.webp",
+     "name": "JAEKYUNG YI",
+     "name_large": false,
+     "role": "",
+     "details": "Ph.D. *POSTECH*, 2026\n\nM.S. *University of Science and Technology* (KIST school, UST), 2019\n\nB.S. *Dongguk University*, 2016\n\n \n\njaekyung12@kaist.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-geunchan-park.webp",
+     "name": "GEUNCHAN PARK",
+     "name_large": false,
+     "role": "",
+     "details": "Ph.D. *POSTECH*, 2026\n\nB.S. *Kyunghee University*, 2021\n\n \n\ngcpark@kaist.ac.kr\n\n[ORCID: 0000-0001-7677-3550](https://orcid.org/0000-0001-7677-3550)",
+     "links": ""
+    }
+   ],
+   "style": {
+    "pad_top": 21,
+    "pad_bottom": 115,
+    "align": "left"
+   }
+  },
+  {
+   "type": "members",
+   "rule_top": true,
+   "heading": "GRADUATE STUDENTS",
+   "items": [
+    {
+     "photo": "images/uploads/member-munjeong-kim.webp",
+     "name": "MUNJEONG KIM",
+     "name_large": false,
+     "role": "**Graduate Student, G5**",
+     "details": "B.S. *POSTECH*, 2022\n\n \n\nmoonj0912@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-jaemin-jeon.webp",
+     "name": "JAEMIN JEON",
+     "name_large": false,
+     "role": "**Graduate Student, G4**",
+     "details": "B.S. & B.Ec. *Sogang University*, 2023\n\n \n\njamiejeon@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-jiwon-park.webp",
+     "name": "JIWON PARK",
+     "name_large": false,
+     "role": "**Graduate Student, G3**",
+     "details": "B.S. *POSTECH*, 2024\n\n \n\npjw0724@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-yuri-jeong.webp",
+     "name": "YURI JEONG",
+     "name_large": false,
+     "role": "**Graduate Student, G3**",
+     "details": "M. S. *Kyungpook National University*, 2024\n\nB. S. *Kyungpook National University*, 2021\n\n \n\nyurichem@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-kangmin-kim.webp",
+     "name": "KANGMIN KIM",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Konkuk University*, 2025\n\n \n\ngmkim1028@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-minseo-park.webp",
+     "name": "MINSEO PARK",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Ewha Womans University*, 2025\n\n \n\nminseopark@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-sang-won-moon.webp",
+     "name": "SANG-WON MOON",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Korea University*, 2025\n\n \n\nmsw1114@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-seong-hyeon-park.webp",
+     "name": "SEONG-HYEON PARK",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *POSTECH*, 2025\n\n \n\nparks@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-seungyeon-ha.webp",
+     "name": "SEUNGYEON HA",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Ewha Womans University*, 2025\n\n \n\nhasylina@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-su-yong-cho.webp",
+     "name": "SU-YONG CHO",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Konkuk University*, 2025\n\n \n\nsyjo510@postech.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-surin-kim.webp",
+     "name": "SURIN KIM",
+     "name_large": false,
+     "role": "**Graduate Student, G2**",
+     "details": "B.S. *Seoul Women’s University*, 2025\n\n \n\nsurinkim@kaist.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-geonu-lee.webp",
+     "name": "GEONU LEE",
+     "name_large": false,
+     "role": "**Graduate Student, G1**",
+     "details": "B.S. *Jeonbuk National University,* 2026\n\n \n\njade0909@kaist.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-dayon-kim.webp",
+     "name": "DAYON KIM",
+     "name_large": false,
+     "role": "**Graduate Student, G1**",
+     "details": "B.S. *POSTECH*, 2026\n\n \n\ndykim26@kaist.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-juhyun-kim.webp",
+     "name": "JUHYUN KIM",
+     "name_large": false,
+     "role": "**Graduate Student, G1**",
+     "details": "B.S. & B.E. *Yonsei University*, 2026\n\n \n\nkimjh6166@kaist.ac.kr",
+     "links": ""
+    }
+   ],
+   "style": {
+    "pad_top": 21,
+    "pad_bottom": 115,
+    "align": "left"
+   }
+  },
+  {
+   "type": "members",
+   "rule_top": true,
+   "heading": "UNDERGRADUATE STUDENTS",
+   "items": [
+    {
+     "photo": "images/uploads/member-seojin-baek.webp",
+     "name": "SEOJIN BAEK",
+     "name_large": false,
+     "role": "**Undergraduate Student**",
+     "details": " \n\nseojin100@kaist.ac.kr",
+     "links": ""
+    },
+    {
+     "photo": "images/uploads/member-yurim-choi.webp",
+     "name": "YURIM CHOI",
+     "name_large": false,
+     "role": "**Research Intern**",
+     "details": "B.S. *Yonsei University*, 2024\n\n \n\nylc0224@gmail.com",
+     "links": ""
+    }
+   ],
+   "style": {
+    "pad_top": 21,
+    "pad_bottom": 115,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}

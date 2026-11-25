@@ -1,0 +1,44 @@
+{
+ "blocks": [
+  {
+   "type": "page_title",
+   "title": "TEACHING",
+   "rule": true,
+   "rule_gap": 28,
+   "style": {
+    "pad_top": 81,
+    "pad_bottom": 22,
+    "align": "center"
+   }
+  },
+  {
+   "type": "course_list",
+   "items": [
+    {
+     "code": "CHEM101",
+     "title": "GENERAL CHEMISTRY I (FALL 2021, 22, 23, 24, 25 / SPRING 2023, 24)"
+    },
+    {
+     "code": "CHEM331",
+     "title": "INORGANIC CHEMISTRY (SPRING 2021)"
+    },
+    {
+     "code": "CHEM531",
+     "title": "ADVANCED INORGANIC CHEMISTRY I (SPRING 2020, 22, 25)"
+    }
+   ],
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 40,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}

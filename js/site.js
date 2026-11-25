@@ -10,6 +10,8 @@
   const fixLinks = h => h.replace(/<a href="(javascript|data|vbscript):[^"]*"/gi, '<a href="#"')
     .replace(/<a href="(https?:)/g, '<a target="_blank" rel="noopener" href="$1');
   const md = s => fixLinks(root.marked ? root.marked.parse(String(s || '')) : esc(s));
+  // 이메일 주소가 자동 링크로 바뀌어 밑줄이 생기지 않게 (원본은 글자만 표시)
+  const plainMail = h => h.replace(/<a href="mailto:([^"]*)">([^<]*)<\/a>/g, (m, a, t) => (a === t ? t : m));
   const mdInline = s => fixLinks(root.marked ? root.marked.parseInline(String(s || '')) : esc(s));
 
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -68,6 +70,71 @@
       const color = col(b.button_color);
       return blk('blk-btn', b, b.label ? '<a class="b" href="' + esc(safeUrl(b.url)) + '">' + esc(b.label) + '</a>' : '', color ? ['--btn:' + color] : []);
     },
+    /* ===== 하위 페이지용 블록 (Home 블록은 위에서 그대로) ===== */
+    page_title(b) {
+      const st = b.style || {};
+      const btn = b.button_label ? '<a class="pt-btn" href="' + esc(safeUrl(b.button_url)) + '">' + esc(b.button_label) + '</a>' : '';
+      const inner = '<div class="pt-row"><h1>' + esc(b.title) + '</h1>' + btn + '</div>' +
+        (b.rule === false ? '' : '<hr class="rule" style="margin-top:' + Math.max(0, Math.min(num(b.rule_gap, 28), 200)) + 'px">');
+      return blk('blk-pg blk-pt' + (b.title_regular ? ' reg' : ''), b, inner);
+    },
+    richtext(b) {
+      const w = num(b.width, 0);
+      return blk('blk-pg blk-rt', b, '<div class="rt"' + (w > 0 ? ' style="max-width:' + Math.min(w, 1020) + 'px"' : '') + '>' +
+        (b.heading ? '<h2>' + esc(b.heading) + '</h2>' : '') + '<div class="md">' + md(b.body) + '</div></div>');
+    },
+    slideshow(b, o) {
+      const imgs = (b.images || []).filter(i => i && i.image);
+      const h = Math.max(200, Math.min(num(b.height, 662), 1200));
+      const slides = imgs.map((i, n) => '<img class="ss-img' + (n === 0 ? ' on' : '') + '" src="' + esc(o.img(i.image)) + '" alt="' + esc(i.alt || '') + '">').join('');
+      const btn = b.button_label ? '<a class="ss-btn" href="' + esc(safeUrl(b.button_url)) + '">' + esc(b.button_label) + '</a>' : '';
+      return blk('blk-pg blk-ss', b, '<div class="ss" data-ss="' + Math.max(0, num(b.interval, 5)) + '" style="--ssn:' + h + '">' + slides + btn + '</div>');
+    },
+    members(b, o) {
+      const items = (b.items || []).filter(Boolean).map(m => {
+        const pic = m.photo ? '<div class="mem-pic"><img src="' + esc(o.img(m.photo)) + '" alt="' + esc(m.name || '') + '"></div>' : '<div class="mem-pic"></div>';
+        const nm = m.name ? '<' + (m.name_large ? 'h3' : 'h4') + ' class="mem-name' + (m.name_large ? ' big' : '') + '">' + esc(m.name) + '</' + (m.name_large ? 'h3' : 'h4') + '>' : '';
+        return '<div class="mem">' + pic + '<div class="mem-tx">' + nm + (m.role ? '<div class="mem-role md">' + md(m.role) + '</div>' : '') +
+          (m.details ? '<div class="md mem-d">' + plainMail(md(m.details)) + '</div>' : '') + (m.links ? '<div class="mem-links md">' + md(m.links) + '</div>' : '') + '</div></div>';
+      }).join('');
+      return blk('blk-pg blk-mem', b, (b.rule_top ? '<hr class="rule">' : '') + (b.heading ? '<h3 class="sec-h">' + esc(b.heading) + '</h3>' : '') + items);
+    },
+    line_list(b) {
+      const items = (b.items || []).filter(i => i && i.text).map(i => '<p>' + mdInline(i.text) + '</p>').join('');
+      return blk('blk-pg blk-ll', b, (b.heading ? '<p class="ll-h">' + esc(b.heading) + '</p>' : '') + '<div class="ll">' + items + '</div>');
+    },
+    course_list(b) {
+      const rows = (b.items || []).filter(i => i && (i.code || i.title)).map(i =>
+        '<div class="crs"><h4>' + esc(i.code) + '</h4><p>' + mdInline(i.title) + '</p></div><hr class="rule">').join('');
+      return blk('blk-pg blk-crs', b, rows);
+    },
+    publications(b, o) {
+      const groups = (b.groups || []).filter(Boolean).map(g => {
+        const items = (g.items || []).filter(Boolean).map(p => {
+          const t = mdInline(p.title);
+          const ttl = '<p class="pub-t">' + (p.number ? esc(p.number) + '. ' : '') + (p.url ? '<a target="_blank" rel="noopener" href="' + esc(safeUrl(p.url)) + '">' + t + '</a>' : t) + '</p>';
+          const ps = [p.authors, p.journal, p.note].filter(x => x && String(x).trim()).map(x => '<p>' + mdInline(x) + '</p>').join('');
+          const ims = (p.images || []).filter(i => i && i.image).map(i => '<img src="' + esc(o.img(i.image)) + '" alt="' + esc(i.alt || '') + '" style="width:' + Math.max(40, Math.min(num(i.width, 230), 400)) + 'px">').join('');
+          return '<article class="pub' + (ims ? ' has-img' : '') + '"><div class="pub-tx">' + ttl + ps + '</div>' + (ims ? '<div class="pub-im">' + ims + '</div>' : '') + '</article>';
+        }).join('');
+        return '<div class="pub-g">' + (g.year ? '<p class="pub-y">' + esc(g.year) + '</p>' : '') + items + '</div>';
+      }).join('');
+      return blk('blk-pg blk-pub', b, groups);
+    },
+    photo_grid(b, o) {
+      const cols = Math.max(1, Math.min(num(b.columns, 4), 8));
+      const items = (b.items || []).filter(i => i && i.image);
+      const tiles = items.map((i, n) => '<figure class="ph"><a class="ph-a" href="' + esc(o.img(i.image)) + '" data-lb="' + n + '" data-t="' + esc(i.title || '') + '"><img src="' + esc(o.img(i.image)) + '" alt="' + esc(i.title || '') + '" loading="lazy"></a>' +
+        (i.title ? '<figcaption>' + esc(i.title) + '</figcaption>' : '') + '</figure>').join('');
+      return blk('blk-pg blk-ph', b, '<div class="ph-grid" data-lbgroup style="--cols:' + cols + '">' + tiles + '</div>');
+    },
+    two_columns(b) {
+      const lw = Math.max(20, Math.min(num(b.left_width, 66), 80));
+      const q = String(b.map_query || '').trim();
+      const map = q ? '<div class="map" style="height:' + Math.max(120, Math.min(num(b.map_height, 384), 900)) + 'px"><iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map" src="https://maps.google.com/maps?q=' + encodeURIComponent(q) + '&z=' + Math.max(1, Math.min(num(b.map_zoom, 15), 21)) + '&output=embed"></iframe></div>' : '';
+      return blk('blk-pg blk-tc', b, '<div class="tc" style="--lw:' + lw + '%"><div class="tc-l">' + (b.left_heading ? '<h1>' + esc(b.left_heading) + '</h1>' : '') + '<div class="md">' + plainMail(md(b.left_body)) + '</div></div>' +
+        '<div class="tc-r">' + (b.right_heading ? '<h3>' + esc(b.right_heading) + '</h3>' : '') + '<div class="md">' + plainMail(md(b.right_body)) + '</div>' + map + '</div></div>');
+    },
     spacer(b) {
       return blk('blk-spacer', b, '', ['--sh:' + Math.max(0, Math.min(num(b.height, 60), 600)) + 'px'], false);
     }
@@ -79,7 +146,9 @@
   }
   function renderHeader(h, current) {
     h = h || {};
-    const nav = (h.menu || []).map(m => '<a href="' + esc(safeUrl(m.url)) + '"' + (m.url === current ? ' aria-current="page"' : '') + '>' + esc(m.label) + '</a>').join('');
+    const cur = String(current || '').replace(/^\.\//, '');
+    const same = u => { u = String(u || '').replace(/^\.\//, '').split('#')[0].split('?')[0]; return u === cur || (cur === 'index.html' && (u === '' || u === './')); };
+    const nav = (h.menu || []).map(m => '<a href="' + esc(safeUrl(m.url)) + '"' + (same(m.url) ? ' aria-current="page"' : '') + '>' + esc(m.label) + '</a>').join('');
     const st = (col(h.bg_color) ? '--hbg:' + col(h.bg_color) + ';' : '') + (col(h.button_color) ? '--cta:' + col(h.button_color) : '');
     return '<header class="site-header" style="' + esc(st) + '"><div class="bar"><a class="logo" href="index.html">' +
       (h.logo ? '<img src="' + esc(h.logo) + '" alt="Park Group">' : '<strong>Park Group</strong>') + '</a>' +
@@ -132,18 +201,55 @@
     bt.addEventListener('click', () => { const o = hd.classList.toggle('open'); bt.setAttribute('aria-expanded', o); bt.textContent = o ? '×' : '☰'; });
   }
 
-  root.PL = { renderBlocks, renderHeader, renderFooter, wireMenu, md };
+
+  /* 슬라이드쇼 · 사진 확대 보기 (공개 페이지에서만 동작) */
+  function wireExtras(scope) {
+    scope.querySelectorAll('[data-ss]').forEach(el => {
+      const imgs = [].slice.call(el.querySelectorAll('.ss-img')), sec = (parseFloat(el.dataset.ss) || 0) * 1000;
+      if (imgs.length < 2 || !sec) return;
+      let i = 0; setInterval(() => { imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); }, sec);
+    });
+    scope.querySelectorAll('[data-lbgroup]').forEach(grid => {
+      const links = [].slice.call(grid.querySelectorAll('[data-lb]'));
+      let box = null, cur = 0, sx = null;
+      const show = n => {
+        cur = (n + links.length) % links.length;
+        const a = links[cur];
+        box.querySelector('img').src = a.getAttribute('href');
+        box.querySelector('img').alt = a.dataset.t || '';
+        box.querySelector('.lb-t').textContent = a.dataset.t || '';
+        box.querySelector('.lb-n').textContent = (cur + 1) + ' / ' + links.length;
+      };
+      const close = () => { if (!box) return; document.removeEventListener('keydown', key); box.remove(); box = null; document.documentElement.classList.remove('lb-open'); if (links[cur]) links[cur].focus(); };
+      const key = e => { if (e.key === 'Escape') close(); else if (e.key === 'ArrowRight') show(cur + 1); else if (e.key === 'ArrowLeft') show(cur - 1); };
+      const open = n => {
+        box = document.createElement('div'); box.className = 'lb'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', 'Photo viewer');
+        box.innerHTML = '<button class="lb-x" type="button" aria-label="Close">×</button><button class="lb-p" type="button" aria-label="Previous">‹</button><button class="lb-nx" type="button" aria-label="Next">›</button>' +
+          '<figure><img alt=""><figcaption><span class="lb-t"></span><span class="lb-n"></span></figcaption></figure>';
+        document.body.appendChild(box); document.documentElement.classList.add('lb-open');
+        box.addEventListener('click', e => { if (e.target === box || e.target.tagName === 'FIGURE') close(); });
+        box.querySelector('.lb-x').onclick = close; box.querySelector('.lb-p').onclick = () => show(cur - 1); box.querySelector('.lb-nx').onclick = () => show(cur + 1);
+        box.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, { passive: true });
+        box.addEventListener('touchend', e => { if (sx == null) return; const d = e.changedTouches[0].clientX - sx; sx = null; if (Math.abs(d) > 50) show(cur + (d < 0 ? 1 : -1)); });
+        document.addEventListener('keydown', key); show(n); box.querySelector('.lb-x').focus();
+      };
+      links.forEach((a, n) => a.addEventListener('click', e => { e.preventDefault(); open(n); }));
+    });
+  }
+
+  root.PL = { renderBlocks, renderHeader, renderFooter, wireMenu, wireExtras, md };
 
   // Public page bootstrap (skipped inside the admin preview).
   if (root.document && document.getElementById('site-main')) {
     const get = u => fetch(u, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); });
     const page = document.body.dataset.page || 'home';
     Promise.all([get('content/' + page + '.json'), get('content/site.json')]).then(([p, s]) => {
-      if (s.site_title) document.title = s.site_title;
-      document.getElementById('site-header').innerHTML = renderHeader(s.header, 'index.html');
+      if (s.site_title && page === 'home') document.title = s.site_title; // 하위 페이지는 각 html 파일의 제목을 씁니다
+      document.getElementById('site-header').innerHTML = renderHeader(s.header, (location.pathname.split('/').pop() || 'index.html'));
       document.getElementById('site-main').innerHTML = renderBlocks(p.blocks);
       document.getElementById('site-footer').innerHTML = renderFooter(s.footer);
       wireMenu(document);
+      wireExtras(document);
       document.documentElement.dataset.ready = '1';
     }).catch(e => {
       document.getElementById('site-main').innerHTML = '<p class="empty-note">페이지 내용을 불러오지 못했어요. (' + esc(e.message) + ')</p>';

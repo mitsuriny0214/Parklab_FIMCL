@@ -27,5 +27,6 @@
     return h('div', { dangerouslySetInnerHTML: { __html: PL.renderHeader(header, 'index.html') + '<div class="empty-note">(본문 영역)</div>' + PL.renderFooter(footer) } });
   };
   CMS.registerPreviewTemplate('home', Page);
+  ['research', 'group', 'alumni', 'photos', 'publications', 'teaching', 'contact'].forEach(n => CMS.registerPreviewTemplate(n, Page));
   CMS.registerPreviewTemplate('site', Site);
 })();

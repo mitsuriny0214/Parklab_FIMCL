@@ -1,0 +1,32 @@
+{
+ "blocks": [
+  {
+   "type": "page_title",
+   "title": "RESEARCH",
+   "rule": true,
+   "rule_gap": 28,
+   "style": {
+    "pad_top": 48,
+    "pad_bottom": 55,
+    "align": "center"
+   }
+  },
+  {
+   "type": "richtext",
+   "width": 676,
+   "body": "Research in the Park Group is focused on studying the collective properties of molecules, clusters, and nanocrystals when they are assembled.\n\nWe are interested in designing materials by predicting their target properties, developing general synthetic principles that allow fine control over assembly, and fundamentally studying the redox activity, electron/ion conductivity, or magnetic properties of the materials synthesized.\n\nFurthermore, we will introduce these new materials into applications such as energy storage and electrochemical catalysts.",
+   "style": {
+    "pad_top": 0,
+    "pad_bottom": 56,
+    "align": "left"
+   }
+  },
+  {
+   "type": "spacer",
+   "height": 90,
+   "style": {
+    "bg_color": "#f7f7f7"
+   }
+  }
+ ]
+}
