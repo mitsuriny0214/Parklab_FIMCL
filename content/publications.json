@@ -9,7 +9,8 @@
         "pad_top": 48,
         "pad_bottom": 42,
         "align": "center"
-      }
+      },
+      "title_regular": false
     },
     {
       "type": "publications",
@@ -19,7 +20,7 @@
           "items": [
             {
               "number": "58",
-              "title": "(논문 제목) test paper",
+              "title": "(논문 제목) test",
               "url": "https://doi.org/10.1021/jacs.4c02326",
               "authors": "(저자) Park, S. S.*",
               "journal": "*J. Am. Chem. Soc.* **2026**, DOI: 10.1021/jacs.4c02326",
