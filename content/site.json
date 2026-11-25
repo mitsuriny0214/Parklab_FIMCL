@@ -4,7 +4,7 @@
     "logo": "images/uploads/logo-kaist-white.webp",
     "bg_color": "#1c1c1c",
     "button_label": "Contact",
-    "button_url": "https://parklab.kaist.ac.kr/contact-1",
+    "button_url": "contact.html",
     "button_color": "#36b5aa",
     "menu": [
       {
@@ -13,23 +13,23 @@
       },
       {
         "label": "Research",
-        "url": "https://parklab.kaist.ac.kr/research"
+        "url": "research.html"
       },
       {
         "label": "Group",
-        "url": "https://parklab.kaist.ac.kr/group"
+        "url": "group.html"
       },
       {
         "label": "Photos",
-        "url": "https://parklab.kaist.ac.kr/photos"
+        "url": "photos.html"
       },
       {
         "label": "Publications",
-        "url": "https://parklab.kaist.ac.kr/publications"
+        "url": "publications.html"
       },
       {
         "label": "Teaching",
-        "url": "https://parklab.kaist.ac.kr/teaching-1"
+        "url": "teaching.html"
       }
     ]
   },
